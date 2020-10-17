@@ -1,0 +1,51 @@
+#knowledge{
+    background-color: #e5eef1;
+    text-align: center;
+}
+.knowledge-title, .knowledge-description{
+
+    color: #47313d;
+    margin:0 auto;
+}
+.knowledge-title{
+    width: 40%;
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+.knowledge-description{
+    width: 30%;
+    font-weight: 300;
+    font-size: 1em;
+    margin-bottom: 5em;
+}
+.knowledge-cards{
+    margin:0 auto;
+    width: 53%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.knowledge-card{
+    font-size: 5em;
+    display: flex;
+    flex-direction: column;
+    padding: 0.6em 1em;
+    background-color: #faf3f2;
+    margin:  0.1em 0.5em;
+    border: 2px solid 
+    rgba(156, 128, 136, 0.2);
+    border-radius: 10px;
+    color: #977186;
+    box-sizing: border-box;
+}
+.icon-description{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 2em;
+
+}
+.knowledge-card:hover{
+    border: 2px solid #9c8088;
+    color: #b17990;
+}

@@ -4,94 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <script src="https://kit.fontawesome.com/a484224e5b.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/navigation-bar.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/knowledge.css">
+    <link rel="stylesheet" href="./css/quote.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <title>Melina Cantamutto</title>
 </head>
 <body>
     <main class="main">
         <!-- BARRA DE NAVEGACIÓN -->
-        <nav class="nav-fixed">
-            <ul class="lista-de-links">
-                <li class="link"><a href="#hi">HOLA</a></li>
-                <li class="link"><a href="#knowledge">CONOCIMIENTOS</a></li>
-                <li class="link"><a href="#projects">PROYECTOS</a></li>
-                <li class="last-link"><a href="#contact">CONTACTO</a></li>
+        <nav class="navigation-bar">
+            <ul class="navigation-links">
+                <li class="nav-link"><a href="#hello">HOLA</a></li>
+                <li class="nav-link"><a href="#knowledge">CONOCIMIENTOS</a></li>
+                <li class="nav-link"><a href="#projects">PROYECTOS</a></li>
+                <li class="nav-last-link"><a href="#contact">CONTACTO</a></li>
             </ul>
         </nav>
         <!-- PRESENTACIÓN -->
-        <header id="hi">
+        <header class="html-section" id="hello">
             <section class="presentation">
-                <h3>¡Hola! Soy</h3>
-                <h1>Melina Cantamutto</h1>
-                <p>Programadora Frontend y amante de los videjugos</p>
-                <button href="#">LO QUE HAGO</button>
+                <h3 class="presentation-intro">¡Hola! Soy</h3>
+                <h1 class="presentation-title">Melina Cantamutto</h1>
+                <p class="presentation-description">Programadora Frontend y amante de los videojuegos</p>
+                <button class="presentation-button" href="#">LO QUE HAGO</button>
             </section>
-            <figure class="image">
-                <img src="images/programmer-girl.jpg" alt="Programmer girl" />
+            <figure class="main-image">
+                <img src="images/main-image.jpg" alt="Programmer girl" />
             </figure>
         </header>
         <!-- MIS CONOCIMIENTOS -->
-        <section id="knowledge">
+        <section class="html-section" id="knowledge">
             <article>
-                <h2>Mis conocimientos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta necessitatibus odit optio voluptate, unde, soluta provident quam, corrupti esse assumenda autem quasi iste ipsum? Enim, maiores. Voluptate ab quaerat dolorem.</p>
-                <!-- icon*6 -->
-            </article>
-            <!-- CITA -->
-            <article id="quote">
-                <i class="fas fa-quote-right"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eaque fugiat, hic vel ut ducimus placeat ipsam, iusto, maxime error laborum provident natus ea. Illo mollitia minus esse delectus consequuntur!</p>
-                <h3>Someone</h3>
+                <h2 class="knowledge-title">Mis conocimientos</h2>
+                <p class="knowledge-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta necessitatibus odit optio voluptate, unde, soluta provident quam, corrupti esse assumenda autem quasi iste ipsum? Enim, maiores. Voluptate ab quaerat dolorem.</p>
+                <section class="knowledge-cards">
+                    <i class="knowledge-card devicon-html5-plain"><span class="icon-description">HTML 5</span></i>
+                    <i class="knowledge-card devicon-css3-plain"><span class="icon-description">CSS 3</span></i>
+                    <i class="knowledge-card devicon-sass-original"><span class="icon-description">Sass</span></i>
+                    <i class="knowledge-card devicon-javascript-plain"><span class="icon-description">JavaScript</span></i>
+                    <i class="knowledge-card devicon-react-original"><span class="icon-description">React</span></i>
+                    <i class="knowledge-card devicon-git-plain"><span class="icon-description">Git</span></i>
+                </section>
             </article>
         </section>
+        <!-- CITA -->
+        <article class="html-section" id="quote">
+            <i class="fas fa-quote-right"></i>
+            <p class="quote-per-se">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eaque fugiat, hic vel ut ducimus placeat ipsam, iusto, maxime error laborum provident natus ea. Illo mollitia minus esse delectus consequuntur!</p>
+            <h3 class="quote-autor">Someone</h3>
+        </article>
         <!-- MIS PROYECTOS -->
-        <article id="projects">
-            <header>
-                <h2>Mis proyectos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam distinctio tenetur culpa illum dignissimos, at, aperiam itaque quos ea recusandae aut explicabo veritatis ratione veniam totam pariatur exercitationem debitis et?</p>
+        <article class="html-section" id="projects">
+            <header class="projects-header">
+                <h2 class="projects-title">Mis proyectos</h2>
+                <p class="projects-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam distinctio tenetur culpa illum dignissimos, at, aperiam itaque quos ea recusandae aut explicabo veritatis ratione veniam totam pariatur exercitationem debitis et?</p>
             </header>
-            <section>
+            <section class="project-cards">
                 <!-- icon*7 no se si botones also -->
             </section>
         </article>
         <!-- CONTACTO -->
         <article id="contact">
-            <section>
-                <header>
-                    <h2>Contactame</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut praesentium, repudiandae iure velit tempora tenetur ratione odio. Nobis vero nisi dolore, nemo enim, iste, molestiae necessitatibus ab sapiente maiores ducimus.</p>
+            <section class="contact-card">
+                <header class="contact-header">
+                    <h2 class="contact-title">Contactame</h2>
+                    <p class="contact-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut praesentium, repudiandae iure velit tempora tenetur ratione odio. Nobis vero nisi dolore, nemo enim, iste, molestiae necessitatibus ab sapiente maiores ducimus.</p>
                 </header>
-                <section>
+                <section  class="contact-icons">
                     <i class="fab fa-twitter"></i>
                     <i class="fab fa-github"></i>
                     <i class="fab fa-linkedin-in"></i>
                     <i class="fas fa-envelope"></i>
                 </section>
-                <aside>
+                <aside  class="contact-form">
                     <h2>Escribime</h2>
                     <!-- formulario -->
                 </aside>
             </section>
         </article>
         <!-- PIE DE PÁGINA -->
-        <footer>
-            <ul>
-                <li><a href="#">Hola</a></li>
-                <li><a href="#">Conocimientos</a></li>
-                <li><a href="#">Proyectos</a></li>
-                <li><a href="#">Contacto</a></li>
+        <footer  class="footer-card">
+            <ul  class="footer-links">
+                <li><a class="footer-link" href="#">Hola</a></li>
+                <li><a class="footer-link" href="#">Conocimientos</a></li>
+                <li><a class="footer-link" href="#">Proyectos</a></li>
+                <li><a class="footer-link" href="#">Contacto</a></li>
             </ul>
-            <section>
+            <section class="footer-icons">
                 <i class="fab fa-twitter" href="https://twitter.com/melicantamutto" target="_blank"></i>
                 <i class="fab fa-github" href="https://github.com/melicantamutto" target="_blank"></i>
-                <i class="fab fa-linkedin-in" href="https://www.linkedin.com/in/meli-cantamutto-35b8141b9/" target="_blank"></i>
+                <i class="fab fa-linkedin-in" href="https://www.linkedin.com/in/melina-luc%C3%ADa-cantamutto-35b8141b9/" target="_blank"></i>
                 <i class="fas fa-envelope"></i>
             </section>
-            <p>Hecho con ❤️ por Melina</p>
+            <p class="footer-signature">Hecho con ❤️ por Melina</p>
         </footer>
     </main>
 </body>

@@ -1,0 +1,32 @@
+.footer-card{
+    height: 3vh;
+    background-color: var(--dark-pink);
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 9rem;
+    color: var(--dark-violet-text);
+}
+.footer-links{
+    display: flex;
+    list-style: none;
+}
+.footer-link{
+    color: var(--dark-violet-text);
+    font-weight: 400;
+    margin: 0 1em;
+    text-transform: uppercase;
+    font-size: 0.95em;
+}
+.footer-icons{
+    margin: 2.5rem;
+}
+.footer-icon{
+    font-size: 1.6em;
+    background-color: var(--cream);
+    border-radius: 100px;
+    padding:0.5em;
+    margin: 0 0.2em;
+}
+.footer-signature{
+    font-weight: 300;
+}

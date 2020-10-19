@@ -1,0 +1,44 @@
+#contact{
+    background-color: var(--light-blue);
+    color: var(--dark-violet-text)
+}
+.contact-card{
+    width: 75%;
+    height: 80vh;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    padding: 5rem 3rem;
+    box-sizing: border-box;
+}
+.contact-main, .contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-title, .form-title{
+    font-weight: 800;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.contact-main{
+    width: 40%;
+    margin-right: 5rem;
+}
+.contact-description{
+    margin-bottom: 2rem;
+}
+.contact-icons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.contact-icon{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    color:var(--dark-green);
+}
+.icon-description{
+    font-weight: 300;
+    margin-left: 1em;
+    font-size: 0.7em;
+}

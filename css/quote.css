@@ -1,0 +1,30 @@
+#quote{
+    height: 55vh;
+    background-color: var(--dark-pink);
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10rem;
+}
+.fa-quote-right{
+    font-size: 5em;
+    color: var(--very-dark-violet);
+    margin-bottom: 1em;
+    text-shadow: 2px 2px var(--cream);
+}
+.quote-per-se{
+    color: var(--dark-violet-text);
+    font-size: 1.1em;
+    line-height: 1.65;
+    width: 40%;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+.quote-autor{
+    color: var(--very-dark-violet);
+    font-size: 1.5em;
+    font-weight: 800;
+    background-color: var(--cream);
+    padding:0.5em;
+    border-radius: 10px;
+}

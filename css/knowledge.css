@@ -1,10 +1,9 @@
 #knowledge{
-    background-color: #e5eef1;
+    background-color: var(--light-blue);
     text-align: center;
 }
 .knowledge-title, .knowledge-description{
-
-    color: #47313d;
+    color: var(--dark-violet-text);
     margin:0 auto;
 }
 .knowledge-title{
@@ -17,7 +16,8 @@
     width: 30%;
     font-weight: 300;
     font-size: 1em;
-    margin-bottom: 5em;
+    line-height: 1.5;
+    margin-bottom: 4em;
 }
 .knowledge-cards{
     margin:0 auto;
@@ -39,7 +39,7 @@
     color: #977186;
     box-sizing: border-box;
 }
-.icon-description{
+.knowledge-icon-description{
     font-size: 1rem;
     font-weight: 700;
     margin-top: 2em;

@@ -1,3 +1,13 @@
+/* VARIABLES */
+:root{
+    --very-dark-violet: #635156;
+    --dark-violet: #9D8189;
+    --dark-pink:#e8a6c2;
+    --dark-violet-text:#47313d;
+    --cream: #fcefed;
+    --light-blue: #e5eef1;
+    --dark-green:#6b7580;
+}
 /* GLOBALES */
 *{
     margin: 0;

@@ -21,17 +21,17 @@
     margin-bottom: 0.5em;
 }
 .presentation-intro{
-    color: #9d8189;
+    color: var(--dark-violet);
     font-size: 2em;
     font-weight: 500;
 }
 .presentation-title{
-    color: #e7a5c1;
+    color: var(--dark-pink);
     font-size: 3em;
     font-weight: 700;
 }
 .presentation-description{
-    color: #9d8189;
+    color: var(--very-dark-violet);
     font-size: 1em;
     font-weight: 300;
 }
@@ -39,7 +39,7 @@
     border:none;
     margin-top:1.5em;
     padding: 1em 2em;
-    background-color: #fcefed;
+    background-color: var(--cream);
     border-radius: 100px;
     color: #615357;
 }

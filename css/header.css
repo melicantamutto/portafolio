@@ -1,11 +1,14 @@
 #hello{
     background-color: #fff;
+}
+.header-container{
     display: flex;
     flex-direction: row;
     padding: 0;
 }
 .image{
     flex-basis: 30%;
+
 }
 .presentation{
     flex-basis: 33%;
@@ -16,6 +19,7 @@
 }
 .main-image>img{
     width: 100%;
+    min-width: 20em;
 }
 .presentation>*{
     margin-bottom: 0.5em;

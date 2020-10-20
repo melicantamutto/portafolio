@@ -16,16 +16,29 @@
     font-weight: 400;
     text-decoration: none;
 }
+/* HTML CONFIGURACION */
 html{
     width: 100%;
 }
+/* CADA SECCIÓN DEL HTML */
 .html-section{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 12em 0 10em 0;
+}
+/* CONTAINERS */
+.section-container{
+    box-sizing: border-box;
+    max-width: 65vw;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }

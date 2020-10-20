@@ -1,10 +1,15 @@
 .footer-card{
-    height: 3vh;
+    width: 100vw;
+    min-height: 2vh;
     background-color: var(--dark-pink);
     align-items: center;
-    justify-content: space-evenly;
-    padding: 9rem;
+    justify-content: center;
+    padding: 7rem;
     color: var(--dark-violet-text);
+}
+.footer.container{
+    align-items: center;
+    justify-content: space-evenly;
 }
 .footer-links{
     display: flex;

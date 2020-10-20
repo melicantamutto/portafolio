@@ -1,5 +1,6 @@
 #quote{
-    height: 55vh;
+    width: 100vw;
+    min-height: 55vh;
     background-color: var(--dark-pink);
     align-items: center;
     justify-content: space-evenly;

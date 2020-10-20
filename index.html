@@ -18,92 +18,114 @@
     <title>Melina Cantamutto</title>
 </head>
 <body>
-    <main class="main">
         <!-- BARRA DE NAVEGACIÓN -->
-        <nav class="navigation-bar">
-            <ul class="navigation-links">
-                <li class="nav-link"><a href="#hello">HOLA</a></li>
-                <li class="nav-link"><a href="#knowledge">CONOCIMIENTOS</a></li>
-                <li class="nav-link"><a href="#projects">PROYECTOS</a></li>
-                <li class="nav-last-link"><a href="#contact">CONTACTO</a></li>
+    <nav class="navigation-bar">
+        <ul class="navigation-links">
+            <li class="nav-link">
+                <a href="#hello">HOLA</a>
+            </li>
+            <li class="nav-link">
+                <a href="#knowledge">CONOCIMIENTOS</a>
+            </li>
+            <li class="nav-link">
+                <a href="#projects">PROYECTOS</a>
+            </li>
+            <li class="nav-last-link">
+                <a href="#contact">CONTACTO</a>
+            </li>
             </ul>
-        </nav>
+    </nav>
+    <main class="main-containter"></main>
         <!-- PRESENTACIÓN -->
         <header class="html-section" id="hello">
-            <section class="presentation">
-                <h3 class="presentation-intro">¡Hola! Soy</h3>
-                <h1 class="presentation-title">Melina Cantamutto</h1>
-                <p class="presentation-description">Programadora Frontend y amante de los videojuegos</p>
-                <button class="presentation-button" href="#">LO QUE HAGO</button>
-            </section>
-            <figure class="main-image">
-                <img src="images/main-image.jpg" alt="Programmer girl" />
-            </figure>
+            <article class="section-container header-container">
+                <section class="presentation">
+                    <h3 class="presentation-intro">¡Hola! Soy</h3>
+                    <h1 class="presentation-title">Melina Cantamutto</h1>
+                    <p class="presentation-description">Programadora Frontend y amante de los videojuegos</p>
+                    <button class="presentation-button" href="#">LO QUE HAGO</button>
+                </section>
+                <figure class="main-image">
+                    <img src="images/main-image.jpg" alt="Programmer girl" />
+                </figure>
+            </article>
         </header>
         <!-- MIS CONOCIMIENTOS -->
         <section class="html-section" id="knowledge">
-            <article>
-                <h2 class="knowledge-title">Mis conocimientos</h2>
-                <p class="knowledge-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta necessitatibus odit optio voluptate, unde, soluta provident quam, corrupti esse assumenda autem quasi iste ipsum? Enim, maiores. Voluptate ab quaerat dolorem.</p>
+            <article class="section-container knowledge-container">
+                <header>
+                    <h2 class="knowledge-title">Mis conocimientos</h2>
+                    <p class="knowledge-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta necessitatibus odit optio voluptate, unde, soluta provident quam, corrupti esse assumenda autem quasi iste ipsum? Enim, maiores. Voluptate ab quaerat dolorem.</p>
+                </header> 
                 <section class="knowledge-cards">
                     <i class="knowledge-card devicon-html5-plain">
-                        <span class="knowledge-icon-description">HTML 5</span></i>
+                            <span class="knowledge-icon-description">HTML 5</span>
+                        </i>
                     <i class="knowledge-card devicon-css3-plain">
-                        <span class="knowledge-icon-description">CSS 3</span></i>
+                            <span class="knowledge-icon-description">CSS 3</span>
+                        </i>
                     <i class="knowledge-card devicon-sass-original">
-                        <span class="knowledge-icon-description">Sass</span></i>
+                            <span class="knowledge-icon-description">Sass</span>
+                        </i>
                     <i class="knowledge-card devicon-javascript-plain">
-                        <span class="knowledge-icon-description">JavaScript</span></i>
+                            <span class="knowledge-icon-description">JavaScript</span>
+                        </i>
                     <i class="knowledge-card devicon-react-original">
-                        <span class="knowledge-icon-description">React</span></i>
+                            <span class="knowledge-icon-description">React</span>
+                        </i>
                     <i class="knowledge-card devicon-git-plain">
-                        <span class="knowledge-icon-description">Git</span></i>
+                            <span class="knowledge-icon-description">Git</span>
+                        </i>
                 </section>
             </article>
         </section>
         <!-- CITA -->
-        <article class="html-section" id="quote">
-            <i class="fas fa-quote-right"></i>
-            <p class="quote-per-se">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eaque fugiat, hic vel ut ducimus placeat ipsam, iusto, maxime error laborum provident natus ea. Illo mollitia minus esse delectus consequuntur!</p>
-            <h3 class="quote-autor">Someone</h3>
-        </article>
+        <section class="html-section" id="quote">
+            <article class="section-container quote-container">
+                <i class="fas fa-quote-right"></i>
+                <p class="quote-per-se">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eaque fugiat, hic vel ut ducimus placeat ipsam, iusto, maxime error laborum provident natus ea. Illo mollitia minus esse delectus consequuntur!</p>
+                <h3 class="quote-autor">Someone</h3>
+            </article>
+        </section>
         <!-- MIS PROYECTOS -->
-        <article class="html-section" id="projects">
-            <header class="projects-header">
-                <h2 class="projects-title">Mis proyectos</h2>
-                <p class="projects-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam distinctio tenetur culpa illum dignissimos, at, aperiam itaque quos ea recusandae aut explicabo veritatis ratione veniam totam pariatur exercitationem debitis et?</p>
-            </header>
-            <section class="project-cards">
-                <section class="project-card">
-                    <img href="#" src="./images/projects/portfolio-temp.svg" class="project-image" alt="main page screenshot">
-                    <p class="project-img-description">Portfolio</p>
+        <section class="html-section" id="projects">
+            <article class="section-container projects-container">
+                <header class="projects-header">
+                    <h2 class="projects-title">Mis proyectos</h2>
+                    <p class="projects-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam distinctio tenetur culpa illum dignissimos, at, aperiam itaque quos ea recusandae aut explicabo veritatis ratione veniam totam pariatur exercitationem debitis et?</p>
+                </header>
+                <section class="project-cards">
+                    <section class="project-card">
+                        <img href="#" src="./images/projects/portfolio-temp.svg" class="project-image" alt="main page screenshot">
+                        <p class="project-img-description">Portfolio</p>
+                    </section>
+                    <section class="project-card">
+                        <img href="#" src="./images/projects/meme-generator.svg" class="project-image" alt="mobile showing a photo of a girl writing">
+                        <p class="project-img-description">Generador de memes</p>
+                    </section>
+                    <section class="project-card">
+                        <img href="#" src="./images/projects/match-3.svg" class="project-image" alt="gamepad with a person next to it">
+                        <p class="project-img-description">Match 3</p>
+                    </section>
+                    <section class="project-card">
+                        <img href="#" src="./images/projects/wallet.svg" class="project-image" alt="wallet with money coming out and people carrying it">
+                        <p class="project-img-description">Controlador de gastos</p>
+                    </section>
+                    <section class="project-card">
+                        <img href="#" src="./images/projects/calendar.svg" class="project-image" alt="girl next to a calendar">
+                        <p class="project-img-description">Administrador de reuniones</p>
+                    </section>
+                    <section class="project-card">
+                        <img href="#" src="./images/projects/to-do-app.svg" class="project-image" alt=" girl holding a list checked">
+                        <p class="project-img-description">To-do app</p>
+                    </section>
+                    <section class="project-card">
+                        <img href="#" src="./images/projects/movie-search.svg" class="project-image" alt="two girls in a couch with popcorn">
+                        <p class="project-img-description">Buscador de películas</p>
+                    </section>
                 </section>
-                <section class="project-card">
-                    <img href="#" src="./images/projects/meme-generator.svg" class="project-image" alt="mobile showing a photo of a girl writing">
-                    <p class="project-img-description">Generador de memes</p>
-                </section>
-                <section class="project-card">
-                    <img href="#" src="./images/projects/match-3.svg" class="project-image" alt="gamepad with a person next to it">
-                    <p class="project-img-description">Match 3</p>
-                </section>
-                <section class="project-card">
-                    <img href="#" src="./images/projects/wallet.svg" class="project-image" alt="wallet with money coming out and people carrying it">
-                    <p class="project-img-description">Controlador de gastos</p>
-                </section>
-                <section class="project-card">
-                    <img href="#" src="./images/projects/calendar.svg" class="project-image" alt="girl next to a calendar">
-                    <p class="project-img-description">Administrador de reuniones</p>
-                </section>
-                <section class="project-card">
-                    <img href="#" src="./images/projects/to-do-app.svg" class="project-image" alt=" girl holding a list checked">
-                    <p class="project-img-description">To-do app</p>
-                </section>
-                <section class="project-card">
-                    <img href="#" src="./images/projects/movie-search.svg" class="project-image" alt="two girls in a couch with popcorn">
-                    <p class="project-img-description">Buscador de películas</p>
-                </section>
-            </section>
-        </article>
+            </article> 
+        </section>
         <!-- CONTACTO -->
         <article class="html-section" id="contact">
             <section class="contact-card">
@@ -111,13 +133,13 @@
                     <h2 class="contact-title">Contactame</h2>
                     <p class="contact-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut praesentium, repudiandae iure velit tempora tenetur ratione odio. Nobis vero nisi dolore, nemo enim, iste, molestiae necessitatibus ab sapiente maiores ducimus.</p>
                     <section  class="contact-icons">
-                        <i class="fab fa-twitter contact-icon">
+                        <i class="fab fa-twitter contact-icon" href="https://twitter.com/melicantamutto">
                             <span class="icon-description">@melicantamutto</span>
                         </i>
-                        <i class="fab fa-github contact-icon">
+                        <i class="fab fa-github contact-icon" href="https://github.com/melicantamutto">
                             <span class="icon-description">melicantamutto</span>
                         </i>
-                        <i class="fab fa-linkedin-in contact-icon">
+                        <i class="fab fa-linkedin-in contact-icon" href="https://www.linkedin.com/in/melina-luc%C3%ADa-cantamutto-35b8141b9/">
                             <span class="icon-description">Melina Lucía Cantamutto</span>
                         </i>
                         <i class="fas fa-envelope contact-icon">
@@ -131,13 +153,23 @@
                 </aside>
             </section>
         </article>
-        <!-- PIE DE PÁGINA -->
-        <footer class=" html-section footer-card">
+    </main>
+     <!-- PIE DE PÁGINA -->
+     <footer class="html-section footer-card">
+         <article class="section-container footer-container">
             <ul class="footer-links">
-                <li><a class="footer-link" href="#">Hola</a></li>
-                <li><a class="footer-link" href="#">Conocimientos</a></li>
-                <li><a class="footer-link" href="#">Proyectos</a></li>
-                <li><a class="footer-link" href="#">Contacto</a></li>
+                <li>
+                    <a class="footer-link" href="#">Hola</a>
+                </li>
+                <li>
+                    <a class="footer-link" href="#">Conocimientos</a>
+                </li>
+                <li>
+                    <a class="footer-link" href="#">Proyectos</a>
+                </li>
+                <li>
+                    <a class="footer-link" href="#">Contacto</a>
+                </li>
             </ul>
             <section class="footer-icons">
                 <i class="fab fa-twitter footer-icon" href="https://twitter.com/melicantamutto" target="_blank"></i>
@@ -146,7 +178,7 @@
                 <i class="fas fa-envelope footer-icon"></i>
             </section>
             <p class="footer-signature">Hecho con ❤️ por Melina</p>
-        </footer>
-    </main>
+         </article>
+    </footer>
 </body>
 </html>

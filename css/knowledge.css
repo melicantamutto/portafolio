@@ -21,10 +21,11 @@
 }
 .knowledge-cards{
     margin:0 auto;
-    width: 53%;
+    width:100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .knowledge-card{
     font-size: 5em;

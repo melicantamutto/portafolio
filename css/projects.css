@@ -1,7 +1,7 @@
 #projects{
     background-color: var(--cream);
     text-align: center;
-    height: 150vh;
+    min-height: 150vh;
 }
 .projects-title, .projects-description{
     color: var(--dark-violet-text);
@@ -21,15 +21,16 @@
     margin-bottom: 4em;
 }
 .project-cards{
+    justify-content: center;
     margin:0 auto;
-    width: 57%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 .project-card{
-    width: 18vw;
-    height: 33vh;
+    width: 18em;
+    height: 18em;
     padding: 1em 1.5em;
     background-color: #fff;
     margin:  0.3em 0.5em;

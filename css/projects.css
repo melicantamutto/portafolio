@@ -8,13 +8,13 @@
     margin:0 auto;
 }
 .projects-title{
-    width: 40%;
+    width: 40em;
     font-weight: 700;
     font-size: 2.5em;
     margin-bottom: 1em;
 }
 .projects-description{
-    width: 30%;
+    width: 30em;
     font-weight: 300;
     font-size: 1em;
     line-height: 1.5;

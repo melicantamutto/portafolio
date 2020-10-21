@@ -4,7 +4,7 @@
 }
 .contact-card{
     width: 75%;
-    height: 80vh;
+    min-height: 80vh;
     background-color: #fff;
     border-radius: 20px;
     display: flex;
@@ -21,7 +21,7 @@
     margin-bottom: 1em;
 }
 .contact-main{
-    width: 40%;
+    width: 40em;
     margin-right: 5rem;
 }
 .contact-description{
@@ -41,4 +41,57 @@
     font-weight: 300;
     margin-left: 1em;
     font-size: 0.7em;
+}
+/* FORM */
+.contact-form{
+    width: 40em;
+    box-sizing: border-box;
+}
+.form-card{
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.form-label{
+    margin-bottom: 0.5em;
+}
+.input-per-se{
+    padding:0.6em 0.7em;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--cream);
+}
+.input-message{
+    padding:1em 1em;
+    border: none;
+    background-color: var(--cream);
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+}
+.form-input:nth-of-type(1), .form-input:nth-of-type(2){
+    flex-grow:1;
+    flex-shrink: 1;
+    max-width: 47%;
+}
+.form-input:nth-of-type(3){
+    flex:9999 0 100%
+}
+.form-input:nth-of-type(1){
+    margin-right: 1.5em;
+}
+/* FORM BUTTON */
+.form-button{
+    border:none;
+    background-color: var(--dark-pink);
+    color:#fff;
+    font-size:1.2em;
+    padding: 0.7em 1.5em;
+    margin-top: 1em;
+    border-radius: 50px;
 }

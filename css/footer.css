@@ -1,27 +1,30 @@
+/* ESTILOS GENERALES DEL FOOTER */
 .footer-card{
     width: 100vw;
     min-height: 2vh;
-    background-color: var(--dark-pink);
+    background-color: var(--darkPink);
     align-items: center;
     justify-content: center;
     padding: 7rem;
-    color: var(--dark-violet-text);
+    color: var(--darkVioletText);
 }
 .footer.container{
     align-items: center;
     justify-content: space-evenly;
 }
+/* LINKS DEL DOCUMENTO */
 .footer-links{
     display: flex;
     list-style: none;
 }
 .footer-link{
-    color: var(--dark-violet-text);
+    color: var(--darkVioletText);
     font-weight: 400;
     margin: 0 1em;
     text-transform: uppercase;
     font-size: 0.95em;
 }
+/* ICONOS DE REDES */
 .footer-icons{
     margin: 2.5rem;
 }
@@ -32,6 +35,14 @@
     padding:0.5em;
     margin: 0 0.2em;
 }
+.footer-icon:nth-of-type(3){
+    padding: 0.5em 0.55em;
+}
+.footer-icon:hover{
+    color: var(--cream);
+    background-color: var(--darkVioletText);
+}
+/* FIRMA FINAL */
 .footer-signature{
     font-weight: 300;
 }

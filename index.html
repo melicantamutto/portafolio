@@ -133,40 +133,49 @@
                     <h2 class="contact-title">Contactame</h2>
                     <p class="contact-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut praesentium, repudiandae iure velit tempora tenetur ratione odio. Nobis vero nisi dolore, nemo enim, iste, molestiae necessitatibus ab sapiente maiores ducimus.</p>
                     <section  class="contact-icons">
-                        <i class="fab fa-twitter contact-icon" href="https://twitter.com/melicantamutto">
-                            <span class="icon-description">@melicantamutto</span>
-                        </i>
-                        <i class="fab fa-github contact-icon" href="https://github.com/melicantamutto">
-                            <span class="icon-description">melicantamutto</span>
-                        </i>
-                        <i class="fab fa-linkedin-in contact-icon" href="https://www.linkedin.com/in/melina-luc%C3%ADa-cantamutto-35b8141b9/">
+                        <div class="contact-icon-container">
+                             <i class="fab fa-twitter contact-icon" href="https://twitter.com/melicantamutto"></i>
+                             <span class="icon-description">@melicantamutto</span>
+                        </div>
+                        <div class="contact-icon-container">
+                            <i class="fab fa-github contact-icon" href="https://github.com/melicantamutto"></i>
+                             <span class="icon-description">melicantamutto</span>
+                        </div> 
+                        <div class="contact-icon-container">
+                            <i class="fab fa-linkedin-in contact-icon" href="https://www.linkedin.com/in/melina-luc%C3%ADa-cantamutto-35b8141b9/"></i>
                             <span class="icon-description">Melina Lucía Cantamutto</span>
-                        </i>
-                        <i class="fas fa-envelope contact-icon">
+                        </div>
+
+                        <div class="contact-icon-container">
+                            <i class="fas fa-envelope contact-icon"></i>
                             <span class="icon-description">melicantamutto@gmail.com</span>
-                        </i>
+                        </div>
                     </section>
                 </header>
                 <aside  class="contact-form">
-                    <h2 class="form-title">Escribime</h2>
-                    <form action="#" class="form-card">
-                        <div class="form-input">
-                            <label class="form-label" for="userName">Nombre *</label>
-                            <input class="input-per-se" type="text" name="userName" id="userName" placeholder="p. ej.: Melina" required />
-                        </div>
-                        <div class="form-input">
-                            <label class="form-label" for="userLastName">Apellido *</label>
-                            <input class="input-per-se" type="text" name="userLastName" id="userLastName" placeholder="p. ej.: Cantamutto" required />
-                        </div>
-                        <div class="form-input">
-                            <label class="form-label" for="userEmail">Email *</label>
-                            <input class="input-per-se" type="email" name="userEmail" id="userEmail" placeholder="p. ej.: melicantamutto@gmail.com" required />
-                        </div>
-                        <div class="form-input">
-                            <label class="form-label" for="message">Mensaje *</label>
-                            <textarea class="input-message" name="message" id="message" placeholder="Escriba un mensaje aquí" required></textarea>
-                        </div>
-                        <button class="form-button" type="submit">Enviar</button>
+                    <form action="#" class="form-card-container">
+                        <fieldset>
+                            <legend class="form-title">Escribime</legend>
+                            <ul CLASS="form-card">
+                                <li class="form-input">
+                                    <label class="form-label" for="userName">Nombre <abbr title="required" aria-label="required">*</abbr></label>
+                                    <input class="input-per-se" type="text" name="userName" id="userName" placeholder="p. ej.: Melina" required />
+                                </li>
+                                <li class="form-input">
+                                    <label class="form-label" for="userLastName">Apellido <abbr title="required" aria-label="required">*</abbr></label>
+                                    <input class="input-per-se" type="text" name="userLastName" id="userLastName" placeholder="p. ej.: Cantamutto" required />
+                                </li>
+                                <li class="form-input">
+                                    <label class="form-label" for="userEmail">Email <abbr title="required" aria-label="required">*</abbr></label>
+                                    <input class="input-per-se" type="email" name="userEmail" id="userEmail" placeholder="p. ej.: melicantamutto@gmail.com" required />
+                                </li>
+                                <li class="form-input">
+                                    <label class="form-label" for="message">Mensaje <abbr title="required" aria-label="required">*</abbr></label>
+                                    <textarea class="input-message" name="message" id="message" placeholder="Escriba un mensaje aquí" required></textarea>
+                                </li>
+                            </ul>
+                            <button class="form-button" type="submit">Enviar</button>
+                        </fieldset>
                     </form>
                 </aside>
             </section>

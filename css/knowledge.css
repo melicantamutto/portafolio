@@ -1,9 +1,11 @@
+/* ESTILOS GENERALES DE CONOCIMIENTOS */
 #knowledge{
-    background-color: var(--light-blue);
+    background-color: var(--lightBlue);
     text-align: center;
 }
+/* TITULO Y DESCRIPCION */
 .knowledge-title, .knowledge-description{
-    color: var(--dark-violet-text);
+    color: var(--darkVioletText);
     margin:0 auto;
 }
 .knowledge-title{
@@ -19,6 +21,7 @@
     line-height: 1.5;
     margin-bottom: 4em;
 }
+/* ESTILOS GENERALES DE LAS CARDS */
 .knowledge-cards{
     margin:0 auto;
     width:100%;
@@ -27,6 +30,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+/* CADA CARD Y CADA ICONO */
 .knowledge-card{
     font-size: 5em;
     display: flex;

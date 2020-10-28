@@ -1,3 +1,4 @@
+/* ESTILOS GENERALES DEL HEADER */
 #hello{
     background-color: #fff;
 }
@@ -6,10 +7,15 @@
     flex-direction: row;
     padding: 0;
 }
+/* ESTILOS DE LA IMAGEN */
 .image{
     flex-basis: 30%;
-
 }
+.main-image>img{
+    width: 100%;
+    min-width: 20em;
+}
+/* ESTILOS DE LA PRESENTACION */
 .presentation{
     flex-basis: 33%;
     display: flex;
@@ -17,28 +23,25 @@
     align-items: flex-start;
     box-sizing: border-box;
 }
-.main-image>img{
-    width: 100%;
-    min-width: 20em;
-}
 .presentation>*{
     margin-bottom: 0.5em;
 }
 .presentation-intro{
-    color: var(--dark-violet);
+    color: var(--darkViolet);
     font-size: 2em;
     font-weight: 500;
 }
 .presentation-title{
-    color: var(--dark-pink);
+    color: var(--darkPink);
     font-size: 3em;
     font-weight: 700;
 }
 .presentation-description{
-    color: var(--very-dark-violet);
+    color: var(--veryDarkViolet);
     font-size: 1em;
     font-weight: 300;
 }
+/* BOTON HEADER */
 .presentation-button{
     border:none;
     margin-top:1.5em;
@@ -46,4 +49,8 @@
     background-color: var(--cream);
     border-radius: 100px;
     color: #615357;
+}
+.presentation-button:hover{
+    background-color: #615357;
+    color: var(--cream);
 }

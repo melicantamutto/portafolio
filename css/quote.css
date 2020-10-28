@@ -1,19 +1,22 @@
+/* ESTILOS GENERALES DE LA CITA */
 #quote{
     width: 100vw;
     min-height: 55vh;
-    background-color: var(--dark-pink);
+    background-color: var(--darkPink);
     align-items: center;
     justify-content: space-evenly;
     padding: 10rem;
 }
+/* ICONO */
 .fa-quote-right{
     font-size: 5em;
-    color: var(--very-dark-violet);
+    color: var(--veryDarkViolet);
     margin-bottom: 1em;
     text-shadow: 2px 2px var(--cream);
 }
+/* TEXTO DE LA CITA */
 .quote-per-se{
-    color: var(--dark-violet-text);
+    color: var(--darkVioletText);
     font-size: 1.1em;
     line-height: 1.65;
     width: 40em;
@@ -21,8 +24,9 @@
     font-weight: 400;
     margin-bottom: 5rem;
 }
+/* AUTOR DE LA CITA */
 .quote-autor{
-    color: var(--very-dark-violet);
+    color: var(--veryDarkViolet);
     font-size: 1.5em;
     font-weight: 800;
     background-color: var(--cream);

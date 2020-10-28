@@ -1,10 +1,12 @@
+/* ESTILOS GENERALES DE MIS PROYECTOS */
 #projects{
     background-color: var(--cream);
     text-align: center;
     min-height: 150vh;
 }
+/* TITULOS Y DESCRIPCION */
 .projects-title, .projects-description{
-    color: var(--dark-violet-text);
+    color: var(--darkVioletText);
     margin:0 auto;
 }
 .projects-title{
@@ -20,6 +22,7 @@
     line-height: 1.5;
     margin-bottom: 4em;
 }
+/* ESTILOS GENERALES DE LAS CARDS */
 .project-cards{
     justify-content: center;
     margin:0 auto;
@@ -28,6 +31,7 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+/* CADA CARD */
 .project-card{
     width: 18em;
     height: 18em;

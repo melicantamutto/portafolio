@@ -1,57 +1,85 @@
+/* ESTILOS GENERALES DE LA SECCION */
 #contact{
-    background-color: var(--light-blue);
-    color: var(--dark-violet-text)
+    background-color: var(--lightBlue);
+    color: var(--darkVioletText)
 }
 .contact-card{
-    width: 75%;
-    min-height: 80vh;
+    width: 70rem;
+    min-height: 70vh;
     background-color: #fff;
     border-radius: 20px;
     display: flex;
-    padding: 5rem 3rem;
+    padding: 5rem 4rem;
     box-sizing: border-box;
 }
+/* ESTILOS DEL MAIN */
 .contact-main, .contact-form{
     display: flex;
     flex-direction: column;
 }
+.contact-main{
+    width: 30em;
+    margin-right: 5rem;
+}
+/* TITULOS */
 .contact-title, .form-title{
     font-weight: 800;
     font-size: 2em;
     margin-bottom: 1em;
 }
-.contact-main{
-    width: 40em;
-    margin-right: 5rem;
-}
+/* DESCRIPCION */
 .contact-description{
     margin-bottom: 2rem;
 }
+/* ICONOS */
 .contact-icons{
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
+}
+.contact-icon-container:nth-of-type(3)>.contact-icon{
+    padding: 0.5em 0.55em;
 }
 .contact-icon{
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-bottom: 1em;
-    color:var(--dark-green);
+    color:var(--darkGreen);
+    border-radius: 100px;
+    padding:0.5em
 }
 .icon-description{
     font-weight: 300;
     margin-left: 1em;
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
-/* FORM */
+/* :HOVER DE ICONOS */
+.contact-icon-container:hover>.contact-icon{
+    color: white;
+    background-color: var(--darkGreen);
+}
+.contact-icon-container:hover>.icon-description{
+    color: var(--darkGreen);
+    background-color: white;
+}
+/* ESTILOS GENERALES DEL FORMULARIO */
+fieldset{
+    border: none;
+}
+ul{
+    list-style: none;
+}
 .contact-form{
     width: 40em;
     box-sizing: border-box;
+}
+.form-card-container{
+    width: 100%;
 }
 .form-card{
     display: flex;
     box-sizing: border-box;
     flex-wrap: wrap;
 }
+/* ESTILOS DE CADA INPUT */
 .form-input{
     display: flex;
     flex-direction: column;
@@ -88,10 +116,29 @@
 /* FORM BUTTON */
 .form-button{
     border:none;
-    background-color: var(--dark-pink);
+    background-color: var(--darkPink);
     color:#fff;
     font-size:1.2em;
     padding: 0.7em 1.5em;
     margin-top: 1em;
     border-radius: 50px;
+}
+/* :HOVERS DEL FORMULARIO */
+.input-per-se:hover, .input-per-se:focus, .input-per-se:active{
+    box-shadow: 0px 0px 8px 0.8px var(--lightBlue);
+}
+.form-button:hover, .form-button:active{
+    background-color: var(--lightPink);
+    color: var(--darkVioletText);
+}
+/* MEDIA QUERIES */
+@media (max-width: 1250px){
+    .contact-card{
+        width: 60em;
+    }
+}
+@media (max-width: 1000px){
+    .contact-card{
+        width: 50em;
+    }
 }

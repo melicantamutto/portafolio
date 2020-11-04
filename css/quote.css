@@ -1,4 +1,5 @@
-/* ESTILOS GENERALES DE LA CITA */
+/* QUOTE GENERALS */
+
 #quote{
     width: 100vw;
     min-height: 55vh;
@@ -7,14 +8,22 @@
     justify-content: space-evenly;
     padding: 10rem;
 }
-/* ICONO */
+
+/* END QUOTE GENERALS */
+
+/* QUOTE ICON */
+
 .fa-quote-right{
     font-size: 5em;
     color: var(--veryDarkViolet);
     margin-bottom: 1em;
     text-shadow: 2px 2px var(--cream);
 }
-/* TEXTO DE LA CITA */
+
+/* END QUOTE ICON */
+
+/* QUOTE TEXT */
+
 .quote-per-se{
     color: var(--darkVioletText);
     font-size: 1.1em;
@@ -24,7 +33,11 @@
     font-weight: 400;
     margin-bottom: 5rem;
 }
-/* AUTOR DE LA CITA */
+
+/* END QUOTE TEXT */
+
+/* QUOTE AUTHOR */
+
 .quote-autor{
     color: var(--veryDarkViolet);
     font-size: 1.5em;
@@ -33,3 +46,25 @@
     padding:0.5em;
     border-radius: 10px;
 }
+
+/* END QUOTE AUTHOR */
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px){
+    .quote-per-se{
+        width: 30em;
+    }
+}
+@media (max-width: 600px){
+    .quote-per-se{
+        width: 20em;
+    }
+}
+@media (max-width: 390px){
+    .quote-per-se{
+        width: 10em;
+    }
+}
+
+/* END MEDIA QUERIES */

@@ -1,37 +1,57 @@
-/* ESTILOS GENERALES DE MIS PROYECTOS */
+/* PROJECTS GENERALS */
+
 #projects{
     background-color: var(--cream);
     text-align: center;
     min-height: 150vh;
 }
-/* TITULOS Y DESCRIPCION */
+.projects-container header{
+    width: fit-content;
+}
+
+/* END PROJECTS GENERALS  */
+
+/* TITLE AND DESCRIPTION */
+
 .projects-title, .projects-description{
     color: var(--darkVioletText);
     margin:0 auto;
 }
 .projects-title{
-    width: 40em;
+    width: 40rem;
     font-weight: 700;
     font-size: 2.5em;
     margin-bottom: 1em;
 }
 .projects-description{
-    width: 30em;
+    width: 30rem;
     font-weight: 300;
     font-size: 1em;
     line-height: 1.5;
     margin-bottom: 4em;
 }
-/* ESTILOS GENERALES DE LAS CARDS */
+
+/* END TITLE AND DESCRIPTION */
+
+/* CARDS GENERALS */
+
 .project-cards{
     justify-content: center;
     margin:0 auto;
-    width: 100%;
+    max-width: 75em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: center;
 }
-/* CADA CARD */
+.project-cards :last-child{
+    align-self: flex-start;
+}
+
+/* END CARD GENERALS */
+
+/* EACH CARD */
+
 .project-card{
     width: 18em;
     height: 18em;
@@ -60,3 +80,37 @@
     border: 2px solid #9c8088;
     color: #b17990;
 }
+
+/* END EACH CARD */
+
+/* MEDIA QUERIES */
+
+@media(max-width: 1500px){
+    .projects-container{
+        max-width: 80vw;
+    }
+}
+@media(max-width:1140px){
+    .projects-container{
+        max-width: 100vw;
+    }
+}
+@media(max-width: 520px){
+    .projects-description, .projects-title{
+        max-width: 20rem;
+    }
+}
+@media(max-width: 340px){
+    .projects-description, .projects-title{
+        max-width: 15rem;
+        text-align: left;
+    }
+    .projects-title{
+        font-size: 1.5em;
+    }
+    .project-card{
+        margin: initial 0;
+    }
+}
+
+/* END MEDIA QUERIES */

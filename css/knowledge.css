@@ -1,27 +1,35 @@
-/* ESTILOS GENERALES DE CONOCIMIENTOS */
+/* KNOWLEDGE GENERALS */
+
 #knowledge{
     background-color: var(--lightBlue);
     text-align: center;
 }
-/* TITULO Y DESCRIPCION */
+
+/* END KNOWLEDGE GENERALS */
+
+/* TITLE AND DESCRIPTION */
+
 .knowledge-title, .knowledge-description{
     color: var(--darkVioletText);
     margin:0 auto;
 }
 .knowledge-title{
-    width: 40em;
+    width: 40rem;
     font-weight: 700;
     font-size: 2.5em;
     margin-bottom: 1em;
 }
 .knowledge-description{
-    width: 30em;
+    width: 30rem;
     font-weight: 300;
     font-size: 1em;
     line-height: 1.5;
     margin-bottom: 4em;
 }
-/* ESTILOS GENERALES DE LAS CARDS */
+/* TITLE AND DESCRIPTION */
+
+/* CARDS GENERALS */
+
 .knowledge-cards{
     margin:0 auto;
     width:100%;
@@ -30,7 +38,10 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-/* CADA CARD Y CADA ICONO */
+/* END CARD GENERALS */
+
+/* EACH CARD AND EACH ICON */
+
 .knowledge-card{
     font-size: 5em;
     display: flex;
@@ -54,3 +65,36 @@
     border: 2px solid #9c8088;
     color: #b17990;
 }
+
+/* END EACH CARD AND EACH ICON */
+
+/* MEDIA QUERIES */
+
+@media(max-width: 1500px){
+    .knowledge-container{
+        max-width: 85vw;
+    }
+}
+@media(max-width:1400px){
+    .knowledge-container{
+        max-width: 100vw;
+    }
+}
+@media(max-width: 520px){
+    .knowledge-description, .knowledge-title{
+        max-width: 20rem;
+    }
+}
+@media(max-width: 340px){
+    .knowledge-description, .knowledge-title{
+        max-width: 15rem;
+        text-align: left;
+    }
+    .knowledge-title{
+        font-size: 1.5em;
+    }
+    .knowledge-card{
+        margin: initial 0;
+    }
+}
+/* END MEDIA QUERIES */

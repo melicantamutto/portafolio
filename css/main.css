@@ -1,4 +1,5 @@
 /* VARIABLES */
+
 :root{
     --veryDarkViolet: #635156;
     --darkViolet: #9D8189;
@@ -8,20 +9,35 @@
     --cream: #fcefed;
     --lightBlue: #e5eef1;
     --darkGreen:#6b7580;
+    --lightGreen: rgb(187, 231, 220);
+    --lightRed: rgb(207, 146, 146);
 }
-/* GLOBALES */
+
+/* END VARIABLES */
+
+/* GLOBALS */
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     text-decoration: none;
+    outline: none;
 }
-/* HTML CONFIGURACION */
+
+/* END GLOBALS */
+
+/* HTML CONFIGURATION */
+
 html{
     width: 100%;
 }
-/* CADA SECCIÓN DEL HTML */
+
+/* END HTML CONFIGURATION */
+
+/* EACH HTML SECTION */
+
 .html-section{
     width: 100vw;
     min-height: 100vh;
@@ -32,7 +48,11 @@ html{
     align-items: center;
     padding: 12em 0 10em 0;
 }
+
+/* END EACH HTML SECTION */
+
 /* CONTAINERS */
+
 .section-container{
     box-sizing: border-box;
     max-width: 65vw;
@@ -43,3 +63,5 @@ html{
     align-items: center;
     flex-shrink: 0;
 }
+
+/* END CONTAINERS */

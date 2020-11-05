@@ -52,6 +52,10 @@
 /* MEDIA QUERIES */
 
 @media (max-width: 800px){
+    #quote{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
     .quote-per-se{
         width: 30em;
     }

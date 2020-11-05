@@ -5,7 +5,7 @@
     color: var(--darkVioletText)
 }
 .contact-card{
-    width: 70rem;
+    max-width: 70rem;
     min-height: 70vh;
     background-color: #fff;
     border-radius: 20px;
@@ -204,12 +204,12 @@ ul{
 
 @media (max-width: 1250px){
     .contact-card{
-        width: 60em;
+        max-width: 60em;
     }
 }
 @media (max-width: 1000px){
     .contact-card{
-        width: 50em;
+        max-width: 50em;
     }
     .form-input:nth-of-type(1), .form-input:nth-of-type(2){
         max-width: 46%;
@@ -233,9 +233,34 @@ ul{
         align-content: space-between;
     }
 }
+@media(max-width: 580px){
+    .contact-card{
+        max-width: 35em;
+    }
+}
 @media(max-width: 500px){
     .form-input:nth-of-type(1), .form-input:nth-of-type(2){
         max-width: 100%;
+        margin-right: 0;
+    }
+    .contact-card{
+        max-width: 30em;
+        max-height: 150vh;
+    }
+    .contact-icons{
+        flex-wrap: nowrap;
+        height: fit-content;
+    }
+    .contact-icon{
+        margin-bottom: 0.3em;
+    }
+    .contact-icons{
+        margin-bottom: 3em;
+    }
+}
+@media(max-width: 400px){
+    .contact-card{
+        max-width: 25em;
     }
 }
 @media(max-width:700px){

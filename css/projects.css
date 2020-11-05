@@ -54,7 +54,7 @@
 
 .project-card{
     width: 18em;
-    height: 18em;
+    max-height: 18em;
     padding: 1em 1.5em;
     background-color: #fff;
     margin:  0.3em 0.5em;
@@ -98,6 +98,16 @@
 @media(max-width: 520px){
     .projects-description, .projects-title{
         max-width: 20rem;
+    }
+    .project-card{
+        font-size: 0.85em;
+        min-width: 90%;  
+    }
+    .project-image{
+        width: 55%;
+    }
+    .project-img-description{
+        margin-top: 1rem;
     }
 }
 @media(max-width: 340px){

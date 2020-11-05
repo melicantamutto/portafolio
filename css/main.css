@@ -65,3 +65,14 @@ html{
 }
 
 /* END CONTAINERS */
+
+/* MEDIA QUERIES */
+
+@media(max-width: 550px){
+    .html-section{
+        padding-top:6em;
+        padding-bottom: 5em;
+    }
+}
+
+/* END MEDIA QUERIES */

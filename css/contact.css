@@ -218,6 +218,7 @@ ul{
 @media(max-width: 830px){
     #contact{
         padding: 0;
+        max-width: 130vh;
     }
     .contact-card{
         width: 100vw;

@@ -1,6 +1,6 @@
 /* KNOWLEDGE GENERALS */
 
-#knowledge{
+.knowledge-section{
     background-color: var(--lightBlue);
     text-align: center;
 }

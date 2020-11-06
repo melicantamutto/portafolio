@@ -1,6 +1,6 @@
 /* FOOTER GENERALS */
 
-.footer-card{
+.footer-section{
     width: 100vw;
     min-height: 2vh;
     background-color: var(--darkPink);
@@ -70,7 +70,7 @@
     }
 }
 @media (max-width: 580px){
-    .footer-card{
+    .footer-section{
         padding: 3em 0em;
     }
     .footer-icons{

@@ -1,6 +1,6 @@
 /* PRESENTATION GENERALS */
 
-#hello{
+.header-section{
     background-color: #fff;
 }
 .header-container{
@@ -13,11 +13,11 @@
 
 /* IMAGE STYLES */
 
-.main-image{
+.presentation-image{
     flex-basis: 30%;
     
 }
-.main-image>img{
+.presentation-image>img{
     margin-left: 2em;
     width:100%;
     min-width: 28em;
@@ -79,7 +79,7 @@
     .header-container{
         flex-direction: column;
     }
-    .main-image>img{
+    .presentation-image>img{
         margin-left: 0;
         
         min-width: 20em;

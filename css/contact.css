@@ -1,6 +1,6 @@
 /* CONTACT GENERALS */
 
-#contact{
+.contact-section{
     background-color: var(--lightBlue);
     color: var(--darkVioletText)
 }
@@ -62,7 +62,7 @@
     border-radius: 100px;
     padding:0.5em
 }
-.icon-description{
+.contact-icon-description{
     font-weight: 300;
     margin-left: 1em;
     font-size: 0.9em;
@@ -76,7 +76,7 @@
     color: white;
     background-color: var(--darkGreen);
 }
-.contact-icon-container:hover>.icon-description{
+.contact-icon-container:hover>.contact-icon-description{
     color: var(--darkGreen);
 }
 
@@ -107,17 +107,17 @@ ul{
 
 /* INPUT ICONS */
 
-.fa-times-circle, .fa-check-circle{
+.form-invalid .form-valid{
     display: none;
     position: absolute;
     top: 36px;
     right: 10px;
     font-size: 1.2em;
 }
-.fa-check-circle{
+.form-valid{
     color: var(--lightGreen);
 }
-.fa-times-circle{
+.form-invalid{
     color: var(--lightRed);
 }
 
@@ -194,7 +194,7 @@ ul{
 .input-per-se:invalid:focus, textarea:invalid:focus{
     box-shadow: 0px 0px 8px 0.8px var(--lightRed);
 }
-.input-per-se:valid + .fa-check-circle, textarea:valid + .fa-check-circle, .input-per-se:invalid + .fa-times-circle, textarea:invalid + .fa-times-circle{
+.input-per-se:valid + .form-valid, textarea:valid + .form-valid, .input-per-se:invalid + .form-invalid, textarea:invalid + .form-invalid{
     display: block;
 }
 
@@ -216,7 +216,7 @@ ul{
     }
 }
 @media(max-width: 830px){
-    #contact{
+    .contact-section{
         padding: 0;
         max-width: 130vh;
     }

@@ -15,23 +15,44 @@
     <link rel="stylesheet" href="./css/projects.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <!-- Primary Meta Tags -->
     <title>Melina Cantamutto</title>
+    <meta name="title" content="Melina Cantamutto - Portafolio">
+    <meta name="description" content="Programadora Frontend y amante de los videojuegos">
+    <meta name="author" content="Melina Lucía Cantamutto" />
+    <meta name="keywords" content="Melina Cantamutto, programador, programadora, frontend, programacion, portafolio" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://melicantamutto.github.io/portafolio/">
+    <meta property="og:title" content="Melina Cantamutto - Portafolio">
+    <meta property="og:description" content="Programadora Frontend y amante de los videojuegos">
+    <meta property="og:image" content="#">
+    <meta property="og:site_name" content="Melina Lucía Cantamutto">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://melicantamutto.github.io/portafolio/">
+    <meta property="twitter:title" content="Melina Cantamutto - Portafolio">
+    <meta property="twitter:description" content="Programadora Frontend y amante de los videojuegos">
+    <meta property="twitter:image" content="#">
+    <meta name="twitter:image:alt" content="Melina Lucía Cantamutto's photo">
 </head>
 <body>
  <!-- NAVIGATION BAR -->
     <nav class="navigation-bar">
-        <i class="fas fa-bars hamburguer-menu">
-            <ul class="navigation-links-dropdown">
-                <li class="nav-link-dropdown">
+        <i class="fas fa-bars dropdown-menu">
+            <ul class="dropdown-links">
+                <li class="dropdown-link">
                     <a href="#hello">HOLA</a>
                 </li>
-                <li class="nav-link-dropdown">
+                <li class="dropdown-link">
                     <a href="#knowledge">CONOCIMIENTOS</a>
                 </li>
-                <li class="nav-link-dropdown">
+                <li class="dropdown-link">
                     <a href="#projects">PROYECTOS</a>
                 </li>
-                <li class="nav-last-link-dropdown">
+                <li class="dropdown-last-link">
                     <a href="#contact">CONTACTO</a>
                 </li>
             </ul>
@@ -54,7 +75,7 @@
 <!-- END NAVIGATION BAR -->
     <main class="main-containter"></main>
 <!-- PRESENTATION -->
-        <header class="html-section" id="hello">
+        <header class="html-section header-section" id="hello">
             <article class="section-container header-container">
                 <section class="presentation">
                     <h3 class="presentation-intro">¡Hola! Soy</h3>
@@ -62,14 +83,14 @@
                     <p class="presentation-description">Programadora Frontend y amante de los videojuegos</p>
                     <a class="presentation-button" href="#projects">LO QUE HAGO</a>
                 </section>
-                <figure class="main-image">
+                <figure class="presentation-image">
                     <img src="images/main-image.jpg" alt="Programmer girl" />
                 </figure>
             </article>
         </header>
 <!-- END PRESENTATION -->
 <!-- MY KNOWLEDGE -->
-        <section class="html-section" id="knowledge">
+        <section class="html-section knowledge-section" id="knowledge">
             <article class="section-container knowledge-container">
                 <header>
                     <h2 class="knowledge-title">Mis conocimientos</h2>
@@ -99,16 +120,16 @@
         </section>
 <!-- END MY KNOWLEDGE -->
 <!-- QUOTE -->
-        <section class="html-section" id="quote">
+        <section class="html-section quote-section" id="quote">
             <article class="section-container quote-container">
-                <i class="fas fa-quote-right"></i>
+                <i class="fas fa-quote-right quote-icon"></i>
                 <p class="quote-per-se"><em>“Usted no puede esperar construir un mundo mejor sin mejorar a las personas. Cada uno de nosotros debe trabajar para su propia mejora”.</em></p>
-                <h3 class="quote-autor">Marie Curie</h3>
+                <h3 class="quote-author">Marie Curie</h3>
             </article>
         </section>
 <!-- END QUOTE -->
 <!-- MY PROYECTS -->
-        <section class="html-section" id="projects">
+        <section class="html-section projects-section" id="projects">
             <article class="section-container projects-container">
                 <header class="projects-header">
                     <h2 class="projects-title">Mis proyectos</h2>
@@ -148,7 +169,7 @@
         </section>
 <!-- END MY PROJECTS -->
 <!-- CONTACT -->
-        <article class="html-section" id="contact">
+        <article class="html-section contact-section" id="contact">
             <section class="contact-card">
                 <header class="contact-main">
                     <h2 class="contact-title">Contactame</h2>
@@ -156,52 +177,52 @@
                     <section  class="contact-icons">
                         <div class="contact-icon-container">
                              <i class="fab fa-twitter contact-icon" href="https://twitter.com/melicantamutto"></i>
-                             <span class="icon-description">@melicantamutto</span>
+                             <span class="contact-icon-description">@melicantamutto</span>
                         </div>
                         <div class="contact-icon-container">
                             <i class="fab fa-github contact-icon" href="https://github.com/melicantamutto"></i>
-                             <span class="icon-description">melicantamutto</span>
+                             <span class="contact-icon-description">melicantamutto</span>
                         </div> 
                         <div class="contact-icon-container">
                             <i class="fab fa-linkedin-in contact-icon" href="https://www.linkedin.com/in/melina-luc%C3%ADa-cantamutto-35b8141b9/"></i>
-                            <span class="icon-description">Melina Lucía Cantamutto</span>
+                            <span class="contact-icon-description">Melina Lucía Cantamutto</span>
                         </div>
 
                         <div class="contact-icon-container">
                             <i class="fas fa-envelope contact-icon"></i>
-                            <span class="icon-description">melicantamutto@gmail.com</span>
+                            <span class="contact-icon-description">melicantamutto@gmail.com</span>
                         </div>
                     </section>
                 </header>
-                <aside  class="contact-form">
-                    <form action="#" class="form-card-container">
+                <aside class="contact-form">
+                    <form class="form-card-container">
                         <fieldset>
                             <legend class="form-title">Escribime</legend>
                             <ul CLASS="form-card">
                                 <li class="form-input">
                                     <label class="form-label" for="userName">Nombre <abbr title="required" aria-label="required">*</abbr></label>
                                     <input class="input-per-se" type="text" name="userName" id="userName" placeholder="p. ej.: Melina" required />
-                                    <i class="far fa-check-circle"></i>
-                                    <i class="far fa-times-circle"></i>
+                                    <i class="far fa-check-circle form-valid"></i>
+                                    <i class="far fa-times-circle form-invalid"></i>
                                    
                                 </li>
                                 <li class="form-input">
                                     <label class="form-label" for="userLastName">Apellido <abbr title="required" aria-label="required">*</abbr></label>
                                     <input class="input-per-se" type="text" name="userLastName" id="userLastName" placeholder="p. ej.: Cantamutto" required />
-                                    <i class="far fa-check-circle"></i>
-                                    <i class="far fa-times-circle"></i>
+                                    <i class="far fa-check-circle form-valid"></i>
+                                    <i class="far fa-times-circle form-invalid"></i>
                                 </li>
                                 <li class="form-input">
                                     <label class="form-label" for="userEmail">Email <abbr title="required" aria-label="required">*</abbr></label>
                                     <input class="input-per-se" type="email" name="userEmail" id="userEmail" placeholder="p. ej.: melicantamutto@gmail.com" required />
-                                    <i class="far fa-check-circle"></i>
-                                    <i class="far fa-times-circle"></i>
+                                    <i class="far fa-check-circle form-valid"></i>
+                                    <i class="far fa-times-circle form-invalid"></i>
                                 </li>
                                 <li class="form-input">
                                     <label class="form-label" for="message">Mensaje <abbr title="required" aria-label="required">*</abbr></label>
                                     <textarea class="input-message" name="message" id="message" placeholder="Escriba un mensaje aquí" required></textarea>
-                                    <i class="far fa-check-circle"></i>
-                                    <i class="far fa-times-circle"></i>
+                                    <i class="far fa-check-circle form-valid"></i>
+                                    <i class="far fa-times-circle form-invalid"></i>
                                 </li>
                             </ul>
                             <button class="form-button" type="submit">Enviar</button>
@@ -213,7 +234,7 @@
     <!-- END CONTACT -->
     </main>
     <!-- FOOTER -->
-     <footer class="html-section footer-card">
+     <footer class="html-section footer-section">
          <article class="section-container footer-container">
             <ul class="footer-links">
                 <li>

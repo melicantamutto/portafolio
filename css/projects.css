@@ -1,6 +1,6 @@
 /* PROJECTS GENERALS */
 
-#projects{
+.projects-section{
     background-color: var(--cream);
     text-align: center;
     min-height: 150vh;

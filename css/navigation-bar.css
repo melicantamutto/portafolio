@@ -15,23 +15,23 @@
 
 /* END NAVIGATION BAR GENERALS */
 
-/* HAMBURGUER MENU */
+/* DROPDOWN MENU */
 
-.hamburguer-menu{
+.dropdown-menu{
     display: none;
     opacity: 0;
     color: var(--veryDarkViolet);
     font-size: 1.5em;
 }
-.hamburguer-menu .navigation-links-dropdown{
+.dropdown-menu .dropdown-links{
     display: none;
 }
 
-/* END HAMBURGUER MENU */
+/* END DROPDOWN MENU */
 
 /* GENERAL LIST (UL) */
 
-.navigation-links, .navigation-links-dropdown{
+.navigation-links, .dropdown-links{
     list-style: none;
     display: flex;
 }
@@ -40,12 +40,12 @@
 
 /* LIST ITEM */
 
-.nav-link>a, .nav-last-link>a, .nav-link-dropdown>a, .nav-last-link-dropdown>a{
+.nav-link>a, .nav-last-link>a, .dropdown-link>a, .dropdown-last-link>a{
     margin: auto 0.2em;
     padding: 0.7em 2em;
     color: var(--darkViolet);
 }
-.nav-last-link>a, .nav-last-link-dropdown>a{
+.nav-last-link>a, .dropdown-last-link>a{
     color: #fff;
     background-color: var(--veryDarkViolet);
     border-radius: 100px;
@@ -56,10 +56,10 @@
 
 /* LIST ITEM HOVER STYLES */
 
-.nav-link>a:hover, .nav-link-dropdown>a:hover{
+.nav-link>a:hover, .dropdown-link>a:hover{
     color: var(--veryDarkViolet);
 }
-.nav-last-link>a:hover, .nav-last-link-dropdown>a:hover{
+.nav-last-link>a:hover, .dropdown-last-link>a:hover{
     background-color: var(--darkViolet);
     color: #fff;
 }
@@ -103,7 +103,7 @@
         display: none;
         font-size: 0.6em;
     }
-    .hamburguer-menu{
+    .dropdown-menu{
         display: inline;
         opacity:1;
         position: relative;
@@ -116,7 +116,7 @@
     
     /* DROPDOWN MENU HOVERS */
 
-    .hamburguer-menu:hover  .navigation-links-dropdown{
+    .dropdown-menu:hover  .dropdown-links{
         cursor: pointer;
         display: block;
         position: absolute;
@@ -127,18 +127,14 @@
         text-align: right;
         padding: 1em 0.5em;
     }
-    .hamburguer-menu:hover  .navigation-links-dropdown li{
+    .dropdown-menu:hover  .dropdown-links li{
         margin-bottom: 1em;
     }
-    .hamburguer-menu:hover  .navigation-links-dropdown li:last-of-type{
+    .dropdown-menu:hover  .dropdown-links li:last-of-type{
         margin-right: 1em;
         margin-top: 1.5em;
     }
-    
-   
-    /* .hamburguer-menu:active, .hamburguer-menu:hover, .hamburguer-menu:focus{ 
-        color: var(--darkViolet);
-    } */
+
     /* END DROPDOWN MENU HOVERS */
 }
 

@@ -79,9 +79,12 @@
     .header-container{
         flex-direction: column;
     }
+    .presentation{
+        text-align: center;
+        align-items: center;
+    }
     .presentation-image>img{
         margin-left: 0;
-        
         min-width: 20em;
     }
 }

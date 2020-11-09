@@ -26,7 +26,9 @@
     text-decoration: none;
     outline: none;
 }
-
+a{
+    color: inherit;
+}
 /* END GLOBALS */
 
 /* HTML CONFIGURATION */
@@ -71,8 +73,8 @@ html{
 
 @media(max-width: 550px){
     .html-section{
-        padding-top:6em;
-        padding-bottom: 5em;
+        padding-top:5em;
+        padding-bottom: 2em;
     }
 }
 

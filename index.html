@@ -94,7 +94,7 @@
 <!-- MY KNOWLEDGE -->
         <section class="html-section knowledge-section" id="knowledge">
             <article class="section-container knowledge-container">
-                <header>
+                <header class="knowledge-header">
                     <h2 class="knowledge-title">Mis conocimientos</h2>
                     <p class="knowledge-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta necessitatibus odit optio voluptate, unde, soluta provident quam, corrupti esse assumenda autem quasi iste ipsum? Enim, maiores. Voluptate ab quaerat dolorem.</p>
                 </header> 
@@ -178,21 +178,21 @@
                     <p class="contact-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut praesentium, repudiandae iure velit tempora tenetur ratione odio. Nobis vero nisi dolore, nemo enim, iste, molestiae necessitatibus ab sapiente maiores ducimus.</p>
                     <section  class="contact-icons">
                         <div class="contact-icon-container">
-                             <i class="fab fa-twitter contact-icon" href="https://twitter.com/melicantamutto"></i>
-                             <span class="contact-icon-description">@melicantamutto</span>
+                             <i class="fab fa-twitter contact-icon"></i>
+                             <a href="https://twitter.com/melicantamutto" class="contact-icon-description">@melicantamutto</a>
                         </div>
                         <div class="contact-icon-container">
-                            <i class="fab fa-github contact-icon" href="https://github.com/melicantamutto"></i>
-                             <span class="contact-icon-description">melicantamutto</span>
+                            <i class="fab fa-github contact-icon"></i>
+                             <a href="https://github.com/melicantamutto" class="contact-icon-description">melicantamutto</a>
                         </div> 
                         <div class="contact-icon-container">
-                            <i class="fab fa-linkedin-in contact-icon" href="https://www.linkedin.com/in/melina-luc%C3%ADa-cantamutto-35b8141b9/"></i>
-                            <span class="contact-icon-description">Melina Lucía Cantamutto</span>
+                            <i class="fab fa-linkedin-in contact-icon"></i>
+                            <a href="https://www.linkedin.com/in/melina-luc%C3%ADa-cantamutto-35b8141b9/" class="contact-icon-description">Melina Lucía Cantamutto</a>
                         </div>
 
                         <div class="contact-icon-container">
                             <i class="fas fa-envelope contact-icon"></i>
-                            <span class="contact-icon-description">melicantamutto@gmail.com</span>
+                            <a href="mailto:melicantamutto@gmail.com" class="contact-icon-description">melicantamutto@gmail.com</a>
                         </div>
                     </section>
                 </header>
@@ -204,27 +204,27 @@
                                 <li class="form-input">
                                     <label class="form-label" for="userName">Nombre <abbr title="required" aria-label="required">*</abbr></label>
                                     <input class="input-per-se" type="text" name="userName" id="userName" placeholder="p. ej.: Melina" aria-label="Nombre" required />
-                                    <i class="far fa-check-circle form-valid" aria-hidden="true"></i>
-                                    <i class="far fa-times-circle form-invalid" aria-hidden="true"></i>
+                                    <i id="form-valid" class="far fa-check-circle form-valid" aria-hidden="true"></i>
+                                    <i id="form-invalid" class="far fa-times-circle form-invalid" aria-hidden="true"></i>
                                    
                                 </li>
                                 <li class="form-input">
                                     <label class="form-label" for="userLastName">Apellido <abbr title="required" aria-label="required">*</abbr></label>
                                     <input class="input-per-se" type="text" name="userLastName" id="userLastName" placeholder="p. ej.: Cantamutto" aria-label="Apellido" required />
-                                    <i class="far fa-check-circle form-valid" aria-hidden="true"></i>
-                                    <i class="far fa-times-circle form-invalid" aria-hidden="true"></i>
+                                    <i id="form-valid" class="far fa-check-circle form-valid" aria-hidden="true"></i>
+                                    <i id="form-invalid" class="far fa-times-circle form-invalid" aria-hidden="true"></i>
                                 </li>
                                 <li class="form-input">
                                     <label class="form-label" for="userEmail">Email <abbr title="required" aria-label="required">*</abbr></label>
                                     <input class="input-per-se" type="email" name="userEmail" id="userEmail" placeholder="p. ej.: melicantamutto@gmail.com" aria-label="Email" required />
-                                    <i class="far fa-check-circle form-valid" aria-hidden="true"></i>
-                                    <i class="far fa-times-circle form-invalid" aria-hidden="true"></i>
+                                    <i id="form-valid" class="far fa-check-circle form-valid" aria-hidden="true"></i>
+                                    <i id="form-invalid" class="far fa-times-circle form-invalid" aria-hidden="true"></i>
                                 </li>
                                 <li class="form-input">
                                     <label class="form-label" for="message">Mensaje <abbr title="required" aria-label="required">*</abbr></label>
                                     <textarea class="input-message" name="message" id="message" placeholder="Escriba un mensaje aquí" aria-label="Mensaje" required></textarea>
-                                    <i class="far fa-check-circle form-valid" aria-hidden="true"></i>
-                                    <i class="far fa-times-circle form-invalid" aria-hidden="true"></i>
+                                    <i id="form-valid" class="far fa-check-circle form-valid" aria-hidden="true"></i>
+                                    <i id="form-invalid" class="far fa-times-circle form-invalid" aria-hidden="true"></i>
                                 </li>
                             </ul>
                             <button class="form-button" type="submit">Enviar</button>
@@ -240,23 +240,31 @@
          <article class="section-container footer-container">
             <ul class="footer-links">
                 <li>
-                    <a class="footer-link" href="#">Hola</a>
+                    <a class="footer-link" href="#hello">Hola</a>
                 </li>
                 <li>
-                    <a class="footer-link" href="#">Conocimientos</a>
+                    <a class="footer-link" href="#knowledge">Conocimientos</a>
                 </li>
                 <li>
-                    <a class="footer-link" href="#">Proyectos</a>
+                    <a class="footer-link" href="#projects">Proyectos</a>
                 </li>
                 <li>
-                    <a class="footer-link" href="#">Contacto</a>
+                    <a class="footer-link" href="#contact">Contacto</a>
                 </li>
             </ul>
             <section class="footer-icons">
-                <i class="fab fa-twitter footer-icon" href="https://twitter.com/melicantamutto" target="_blank"></i>
-                <i class="fab fa-github footer-icon" href="https://github.com/melicantamutto" target="_blank"></i>
-                <i class="fab fa-linkedin-in footer-icon" href="https://www.linkedin.com/in/melina-luc%C3%ADa-cantamutto-35b8141b9/" target="_blank"></i>
-                <i class="fas fa-envelope footer-icon"></i>
+                <a href="https://twitter.com/melicantamutto" target="_blank">
+                    <i class="fab fa-twitter footer-icon"></i>
+                </a>
+                <a href="https://github.com/melicantamutto" target="_blank">
+                    <i class="fab fa-github footer-icon"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/melina-luc%C3%ADa-cantamutto-35b8141b9/" target="_blank">
+                    <i class="fab fa-linkedin-in footer-icon"></i>
+                </a>
+                <a href="mailto:melicantamutto@gmail.com" target="_blank">
+                    <i class="fas fa-envelope footer-icon"></i>
+                </a>
             </section>
             <p class="footer-signature">Hecho con ❤️ por Melina</p>
          </article>

@@ -65,11 +65,17 @@
     }
 }
 @media (max-width: 600px){
+    .quote-section{
+        font-size: 0.9em;
+    }
+    .quote-icon{
+        font-size: 3.5em;
+    }
     .quote-per-se{
         width: 20em;
     }
 }
-@media (max-width: 390px){
+@media (max-width: 350px){
     .quote-per-se{
         width: 10em;
     }

@@ -2,7 +2,8 @@
 
 .contact-section{
     background-color: var(--lightBlue);
-    color: var(--darkVioletText)
+    color: var(--darkVioletText);
+    min-height: 100vh;
 }
 .contact-card{
     max-width: 70rem;
@@ -107,12 +108,8 @@ ul{
 
 /* INPUT ICONS */
 
-.form-invalid, .form-valid{
+#form-invalid, #form-valid{
     display: none;
-    position: absolute;
-    top: 36px;
-    right: 10px;
-    font-size: 1.2em;
 }
 .form-valid{
     color: var(--lightGreen);
@@ -185,7 +182,7 @@ ul{
     box-shadow: none;
 }
 .input-per-se:hover, .input-per-se:focus, .input-per-se:active{
-    box-shadow: 0px 0px 8px 0.8px var(--darkViolet);
+    box-shadow: 0px 0px 8px 0.8px var(--cream);
 }
 .form-button:hover, .form-button:active{
     background-color: var(--lightPink);
@@ -197,8 +194,12 @@ ul{
 .input-per-se:invalid:focus, textarea:invalid:focus{
     box-shadow: 0px 0px 8px 0.8px var(--lightRed);
 }
-.input-per-se:valid ~ .form-valid, .input-message:valid ~ .form-valid, .input-per-se:invalid ~ .form-invalid, .input-message:invalid ~ .form-invalid{
+.input-per-se:valid ~ #form-valid, .input-message:valid ~ #form-valid, .input-per-se:focus:invalid ~ #form-invalid, .input-message:focus:invalid ~ #form-invalid{
     display: block;
+    position: absolute;
+    top: 36px;
+    right: 10px;
+    font-size: 1.2em;
 }
 
 /* END FORM HOVERS AND VALIDATION */
@@ -208,6 +209,8 @@ ul{
 @media (max-width: 1250px){
     .contact-card{
         max-width: 60em;
+        min-height: 150vh;
+        max-height: 200vh;
     }
 }
 @media (max-width: 1000px){
@@ -224,12 +227,11 @@ ul{
     .contact-section{
         padding: 0;
         max-width: 100vw;
+      
     }
     .contact-card{
-        width: 100%;
-        height: 100%;
+        width: 100vw;
         flex-direction: column;
-        width: 40em;
         background-color: inherit;
         padding: 4rem 2rem;
         border-radius: none;
@@ -261,7 +263,7 @@ ul{
     }
     .contact-card{
         max-width: 30em;
-        max-height: 150vh;
+        
     }
     .contact-icons{
         flex-wrap: nowrap;

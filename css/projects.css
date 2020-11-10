@@ -90,7 +90,7 @@
     left: 0;
     width: 100%; 
     height: 100%;  
-    opacity: 0.1; 
+    opacity: 0.15; 
     z-index: -1;
     background: url(../images/backgound-two.jpg);
     background-size: cover;

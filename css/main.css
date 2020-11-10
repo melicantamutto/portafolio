@@ -3,7 +3,8 @@
 :root{
     --veryDarkViolet: #635156;
     --darkViolet: #9D8189;
-    --darkPink:#e8a6c2;
+    --darkPink:#c07795;
+    --mediumPink:#e8a6c2;
     --lightPink: #f5cddd;
     --darkVioletText:#47313d;
     --cream: #fcefed;
@@ -71,9 +72,12 @@ html{
 
 /* MEDIA QUERIES */
 
-@media(max-width: 550px){
+@media(max-width: 700px){
+    body{
+        font-size: 90%;
+    }
     .html-section{
-        padding-top:5em;
+        padding-top:3em;
         padding-bottom: 2em;
     }
 }

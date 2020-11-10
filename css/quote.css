@@ -3,7 +3,7 @@
 .quote-section{
     width: 100vw;
     min-height: 55vh;
-    background-color: var(--darkPink);
+    background-color: var(--mediumPink);
     align-items: center;
     justify-content: space-evenly;
     padding: 10rem;

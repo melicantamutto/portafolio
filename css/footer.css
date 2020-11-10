@@ -3,7 +3,7 @@
 .footer-section{
     width: 100vw;
     min-height: 2vh;
-    background-color: var(--darkPink);
+    background-color: var(--mediumPink);
     align-items: center;
     justify-content: center;
     padding: 7rem;

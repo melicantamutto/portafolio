@@ -43,7 +43,7 @@
 .nav-link>a, .nav-last-link>a, .dropdown-link>a, .dropdown-last-link>a{
     margin: auto 0.2em;
     padding: 0.7em 2em;
-    color: var(--darkViolet);
+    color: var(--veryDarkViolet);
     position: relative;
     border-radius: 100px;
 }
@@ -59,7 +59,7 @@
 /* LIST ITEM HOVER STYLES */
 
 .nav-link>a:hover, .dropdown-link>a:hover{
-    color: var(--veryDarkViolet);
+    color: #30282a;
 }
 .nav-last-link>a:hover, .dropdown-last-link>a:hover{
     background-color: var(--darkViolet);

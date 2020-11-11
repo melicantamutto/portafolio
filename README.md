@@ -4,11 +4,9 @@ __Hola! Esta es mi página de presentación personal donde expongo mis conocimie
 
 __Podés verlo haciendo click [acá](https://melicantamutto.github.io/portafolio/)__
 
-<br>
 
 ***
 
-<br>
 
 ## Instalación 🔧
 
@@ -28,17 +26,14 @@ Para clonar este repositorio tenés que:
 
 _Este proyecto no necesita la instalación de ninguna dependencia (por ahora)_
 
-<br>
 
 ### Así se debería ver el proyecto
 
 ![captura del proyecto](./images/full-screenshot.jpg)
 
-<br>
 
 ***
 
-<br>
 
 ## Construido con ⌨️
 
@@ -47,11 +42,9 @@ _Este proyecto no necesita la instalación de ninguna dependencia (por ahora)_
 
    _(por el momento)_
 
-<br>
 
 ***
 
-<br>
 
 ## Expresiones de Gratitud 💕
 

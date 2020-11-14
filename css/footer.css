@@ -28,6 +28,12 @@
     margin: 0 1em;
     text-transform: uppercase;
     font-size: 0.95em;
+    transition: var(--transitionNav);
+}
+.footer-link:hover{
+    background-color: var(--cream);
+    border-radius: 50px;
+    padding:1em;
 }
 
 /* END NAVIGATION LINKS */
@@ -43,6 +49,7 @@
     border-radius: 100px;
     padding:0.5em;
     margin: 0 0.2em;
+    transition: var(--transitionSocials);
 }
 .footer-icon:nth-of-type(3){
     padding: 0.5em 0.55em;

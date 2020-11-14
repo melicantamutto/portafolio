@@ -41,19 +41,27 @@
 /* LIST ITEM */
 
 .nav-link>a, .nav-last-link>a, .dropdown-link>a, .dropdown-last-link>a{
+    position: relative;
     margin: auto 0.2em;
     padding: 0.7em 2em;
     color: var(--veryDarkViolet);
     position: relative;
     border-radius: 100px;
+    transition: var(--transitionNav);
+    -webkit-transition: var(--transitionNav);
+    -moz-transition: var(--transitionNav); 
+    -ms-transition: var(--transitionNav); 
+    -o-transition: var(--transitionNav); 
 }
 .nav-last-link>a, .dropdown-last-link>a{
     color: #fff;
     background-color: var(--veryDarkViolet);
     border-radius: 100px;
-}
-.nav-link>a:active, .nav-last-link>a:active{
-    box-shadow: 0px 0px 15px 4px rgba(157,129,137,0.71);
+    transition: var(--transitionLastNav);
+    -webkit-transition: var(--transitionLastNav);
+    -moz-transition: var(--transitionLastNav); 
+    -ms-transition: var(--transitionLastNav); 
+    -o-transition: var(--transitionLastNav);
 }
 
 /* LIST ITEM HOVER STYLES */
@@ -64,6 +72,18 @@
 .nav-last-link>a:hover, .dropdown-last-link>a:hover{
     background-color: var(--darkViolet);
     color: #fff;
+}
+.nav-link>a::before{
+    content: "";
+    position: absolute;
+    transition: var(--transitionNavBackground);
+    -webkit-transition: var(--transitionNavBackground);
+    -moz-transition: var(--transitionNavBackground); 
+    -ms-transition: var(--transitionNavBackground); 
+    -o-transition: var(--transitionNavBackground); 
+    left:100%;
+    overflow: hidden;
+    opacity: 0;
 }
 .nav-link>a:hover::before{
     content: "";
@@ -80,7 +100,8 @@
     border-radius: 100px;
 }
 
-/* END LIST ITEM STYLES */
+
+/* END LIST ITEM HOVER STYLES */
 
 /* MEDIA QUERIES */
 

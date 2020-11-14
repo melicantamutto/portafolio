@@ -61,12 +61,14 @@
     margin-bottom: 1em;
     color:var(--darkGreen);
     border-radius: 100px;
-    padding:0.5em
+    padding:0.5em;
+    transition: var(--transitionSocials);
 }
 .contact-icon-description{
     font-weight: 300;
     margin-left: 1em;
     font-size: 0.9em;
+    transition: var(--transitionSocials);
 }
 
 /* END ICONS */
@@ -139,6 +141,7 @@ fieldset, .input-message{
     border: none;
     border-radius: 50px;
     background-color: var(--cream);
+    transition: var(--transitionForm);
 }
 .input-message{
     padding:1em 1em;
@@ -149,6 +152,7 @@ fieldset, .input-message{
     height: 8em;
     min-height: 3em;
     resize: none;
+    transition: var(--transitionForm);
 }
 .form-input:nth-of-type(1), .form-input:nth-of-type(2){
     flex-grow:1;
@@ -175,6 +179,7 @@ fieldset, .input-message{
     padding: 0.7em 1.5em;
     margin-top: 1em;
     border-radius: 50px;
+    transition: var(--transitionButton);
 }
 
 /* END FORM BUTTON */
@@ -183,7 +188,7 @@ fieldset, .input-message{
 .input-per-se:invalid, textarea:invalid{
     box-shadow: none;
 }
-.input-per-se:hover, .input-per-se:focus, .input-per-se:active{
+.input-per-se:hover, .input-message:hover{
     box-shadow: 0px 0px 8px 0.8px var(--cream);
 }
 .form-button:hover, .form-button:active{

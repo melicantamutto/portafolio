@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="supported-color-schemes" content="light dark">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Melina Cantamutto - Portafolio">
+    <meta name="description" content="Programadora Frontend y amante de los videojuegos">
+    <meta name="author" content="Melina Lucía Cantamutto" />
+    <meta name="keywords" content="Melina Cantamutto, programador, programadora, frontend, programacion, portafolio, developer" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gifted-wright-7f00b5.netlify.app">
+    <meta property="og:title" content="Melina Cantamutto - Portafolio">
+    <meta property="og:description" content="Programadora Frontend y amante de los videojuegos">
+    <meta property="og:image" content="https://raw.githubusercontent.com/melicantamutto/portafolio/master/images/meta-image.jpg">
+    <meta property="og:site_name" content="Melina Lucía Cantamutto">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://gifted-wright-7f00b5.netlify.app">
+    <meta property="twitter:title" content="Melina Cantamutto - Portafolio">
+    <meta property="twitter:description" content="Programadora Frontend y amante de los videojuegos">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/melicantamutto/portafolio/master/images/meta-image.jpg">
+    <meta name="twitter:image:alt" content="Melina Lucía Cantamutto's photo">
+
+    <!-- Favicon -->
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-- Icons links -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <script src="https://kit.fontawesome.com/a484224e5b.js" crossorigin="anonymous"></script>
+
+    <!-- Styles links -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/navigation-bar.css">
@@ -15,30 +44,9 @@
     <link rel="stylesheet" href="./css/projects.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <!-- Primary Meta Tags -->
+    
+    <!-- Title -->
     <title>Melina Cantamutto</title>
-    <meta name="title" content="Melina Cantamutto - Portafolio">
-    <meta name="description" content="Programadora Frontend y amante de los videojuegos">
-    <meta name="author" content="Melina Lucía Cantamutto" />
-    <meta name="keywords" content="Melina Cantamutto, programador, programadora, frontend, programacion, portafolio" />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://melicantamutto.github.io/portafolio/">
-    <meta property="og:title" content="Melina Cantamutto - Portafolio">
-    <meta property="og:description" content="Programadora Frontend y amante de los videojuegos">
-    <meta property="og:image" content="https://raw.githubusercontent.com/melicantamutto/portafolio/master/images/meta-image.jpg">
-    <meta property="og:site_name" content="Melina Lucía Cantamutto">
-    <meta property="fb:app_id" content="melina_cantamutto_portfolio" />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://melicantamutto.github.io/portafolio/">
-    <meta property="twitter:title" content="Melina Cantamutto - Portafolio">
-    <meta property="twitter:description" content="Programadora Frontend y amante de los videojuegos">
-    <meta property="twitter:image" content="https://raw.githubusercontent.com/melicantamutto/portafolio/master/images/meta-image.jpg">
-    <meta name="twitter:image:alt" content="Melina Lucía Cantamutto's photo">
-    <meta name="twitter:site" content="@melicantamutto">
 </head>
 <body>
  <!-- NAVIGATION BAR -->
@@ -83,7 +91,7 @@
                     <h3 class="presentation-intro">¡Hola! Soy</h3>
                     <h1 class="presentation-title">Melina Cantamutto</h1>
                     <p class="presentation-description">Programadora Frontend y amante de los videojuegos</p>
-                    <a class="presentation-button" href="#projects">LO QUE HAGO</a>
+                    <a class="presentation-button" href="#projects" aria-label="Lo que hago">LO QUE HAGO</a>
                 </section>
                 <figure class="presentation-image">
                     <img src="images/main-image.jpg" alt="Programmer girl" />
@@ -261,7 +269,7 @@
                                     <i id="form-invalid" class="far fa-times-circle form-invalid" aria-hidden="true"></i>
                                 </li>
                             </ul>
-                            <button class="form-button" type="submit">Enviar</button>
+                            <button class="form-button" type="submit" aria-label="Enviar">Enviar</button>
                         </fieldset>
                     </form>
                 </aside>

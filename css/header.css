@@ -64,6 +64,7 @@
     background-color: var(--cream);
     border-radius: 100px;
     color: #615357;
+    transition: var(--transitionButton);
 }
 .presentation-button:hover{
     background-color: #615357;

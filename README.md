@@ -2,7 +2,7 @@
 
 __Hola! Esta es mi página de presentación personal donde expongo mis conocimientos y algunos de mis proyectos realizados.__
 
-__Podés verlo haciendo click [acá](https://melicantamutto.github.io/portafolio/)__
+__Podés verlo haciendo click [acá](https://gifted-wright-7f00b5.netlify.app)__
 
 
 ***
@@ -18,7 +18,7 @@ Para clonar este repositorio tenés que:
 
 - Hacer click en el botónde code y copiar la url
 
-- Y luego en tu terminal de git (en la carpeta deseada) escribir
+- Y luego en tu terminal de git (situandote en la carpeta deseada) escribir
 
    ` git clone <url>`
 
@@ -46,7 +46,7 @@ _Este proyecto no necesita la instalación de ninguna dependencia (por ahora)_
 ***
 
 
-## Expresiones de Gratitud 💕
+## Agradecimientos 💕
 
 - Principalmente a mi profe [Jonh](https://github.com/Jonhks), a [Leydy](https://github.com/leydyk93) y a las chicas de la sexta generación de Frontend online de [Ada](https://adaitw.org/) 🧚🏻‍♀️ y a su apoyo todos los días.
 - A Ariel ❤️ y a mi familia que probaron la página 10.000 veces hasta que quedó.

@@ -1,22 +1,22 @@
 /* VARIABLES */
 
-:root{
+:root {
     --veryDarkViolet: #635156;
     --darkViolet: #9D8189;
-    --darkPink:#c07795;
-    --mediumPink:#e8a6c2;
+    --darkPink: #c07795;
+    --mediumPink: #e8a6c2;
     --lightPink: #f5cddd;
-    --darkVioletText:#47313d;
+    --darkVioletText: #47313d;
     --cream: #fcefed;
     --lightBlue: #e5eef1;
-    --darkGreen:#6b7580;
+    --darkGreen: #6b7580;
     --lightGreen: rgb(187, 231, 220);
     --lightRed: rgb(207, 146, 146);
     --transitionSocials: all 0.2s ease-out;
     --transitionForm: all 0.3s ease-in-out;
     --transitionNav: all 0.3s ease-in-out 0.01s;
-    --transitionLastNav:all 0.3s ease-out 0.01s;
-    --transitionNavBackground: all 0.15s ease-in-out 0.01s; 
+    --transitionLastNav: all 0.3s ease-out 0.01s;
+    --transitionNavBackground: all 0.15s ease-in-out 0.01s;
     --transitionButton: all 0.25s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
@@ -24,7 +24,7 @@
 
 /* GLOBALS */
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
@@ -33,14 +33,16 @@
     text-decoration: none;
     outline: none;
 }
-a{
+
+a {
     color: inherit;
 }
+
 /* END GLOBALS */
 
 /* HTML CONFIGURATION */
 
-html{
+html {
     width: 100%;
 }
 
@@ -48,7 +50,7 @@ html{
 
 /* EACH HTML SECTION */
 
-.html-section{
+.html-section {
     width: 100vw;
     min-height: 100vh;
     box-sizing: border-box;
@@ -63,7 +65,7 @@ html{
 
 /* CONTAINERS */
 
-.section-container{
+.section-container {
     box-sizing: border-box;
     max-width: 65vw;
     background-color: inherit;
@@ -78,15 +80,17 @@ html{
 
 /* MEDIA QUERIES */
 
-@media(max-width: 700px){
-    body{
+@media(max-width: 700px) {
+    body {
         font-size: 90%;
     }
-    .html-section{
-        padding-top:3em;
+
+    .html-section {
+        padding-top: 3em;
         padding-bottom: 2em;
     }
 }
+
 /* @media (prefers-color-scheme: dark){
     :root{
         --veryDarkViolet: #635156;

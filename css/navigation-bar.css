@@ -1,14 +1,14 @@
 /* NAVIGATION BAR GENERALS  */
 
-.navigation-bar{
+.navigation-bar {
     position: fixed;
-    top:0;
-    right:0;
+    top: 0;
+    right: 0;
     width: 100vw;
     display: flex;
     justify-content: flex-end;
     padding: 2.2em 12em;
-    box-shadow: 0px 3px 15px 4px rgba(157,129,137,0.41);
+    box-shadow: 0px 3px 15px 4px rgba(157, 129, 137, 0.41);
     background-color: #fff;
     z-index: 9999;
 }
@@ -17,13 +17,14 @@
 
 /* DROPDOWN MENU */
 
-.dropdown-menu{
+.dropdown-menu {
     display: none;
     opacity: 0;
     color: var(--veryDarkViolet);
     font-size: 1.5em;
 }
-.dropdown-menu .dropdown-links{
+
+.dropdown-menu .dropdown-links {
     display: none;
 }
 
@@ -31,7 +32,8 @@
 
 /* GENERAL LIST (UL) */
 
-.navigation-links, .dropdown-links{
+.navigation-links,
+.dropdown-links {
     list-style: none;
     display: flex;
 }
@@ -40,7 +42,10 @@
 
 /* LIST ITEM */
 
-.nav-link>a, .nav-last-link>a, .dropdown-link>a, .dropdown-last-link>a{
+.nav-link>a,
+.nav-last-link>a,
+.dropdown-link>a,
+.dropdown-last-link>a {
     position: relative;
     margin: auto 0.2em;
     padding: 0.7em 2em;
@@ -49,50 +54,57 @@
     border-radius: 100px;
     transition: var(--transitionNav);
     -webkit-transition: var(--transitionNav);
-    -moz-transition: var(--transitionNav); 
-    -ms-transition: var(--transitionNav); 
-    -o-transition: var(--transitionNav); 
+    -moz-transition: var(--transitionNav);
+    -ms-transition: var(--transitionNav);
+    -o-transition: var(--transitionNav);
 }
-.nav-last-link>a, .dropdown-last-link>a{
+
+.nav-last-link>a,
+.dropdown-last-link>a {
     color: #fff;
     background-color: var(--veryDarkViolet);
     border-radius: 100px;
     transition: var(--transitionLastNav);
     -webkit-transition: var(--transitionLastNav);
-    -moz-transition: var(--transitionLastNav); 
-    -ms-transition: var(--transitionLastNav); 
+    -moz-transition: var(--transitionLastNav);
+    -ms-transition: var(--transitionLastNav);
     -o-transition: var(--transitionLastNav);
 }
 
 /* LIST ITEM HOVER STYLES */
 
-.nav-link>a:hover, .dropdown-link>a:hover{
+.nav-link>a:hover,
+.dropdown-link>a:hover {
     color: #30282a;
 }
-.nav-last-link>a:hover, .dropdown-last-link>a:hover{
+
+.nav-last-link>a:hover,
+.dropdown-last-link>a:hover {
     background-color: var(--darkViolet);
     color: #fff;
 }
-.nav-link>a::before{
+
+.nav-link>a::before {
     content: "";
     position: absolute;
     transition: var(--transitionNavBackground);
     -webkit-transition: var(--transitionNavBackground);
-    -moz-transition: var(--transitionNavBackground); 
-    -ms-transition: var(--transitionNavBackground); 
-    -o-transition: var(--transitionNavBackground); 
-    left:100%;
+    -moz-transition: var(--transitionNavBackground);
+    -ms-transition: var(--transitionNavBackground);
+    -o-transition: var(--transitionNavBackground);
+    left: 100%;
     overflow: hidden;
     opacity: 0;
 }
-.nav-link>a:hover::before{
+
+.nav-link>a:hover::before {
     content: "";
     position: absolute;
-    top: 0; 
+    top: 0;
     left: 0;
-    width: 100%; 
-    height: 100%;  
-    opacity: 0.4; 
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
     z-index: -1;
     background: url(../images/background-three.jpg);
     background-size: 115%;
@@ -105,44 +117,49 @@
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1000px){
-    .navigation-bar{
-        position:relative; 
-        
-        padding-top:1em;
+@media (max-width: 1000px) {
+    .navigation-bar {
+        position: relative;
+
+        padding-top: 1em;
         padding-bottom: 1em;
     }
-    .navigation-links{
+
+    .navigation-links {
         display: none;
-    } 
-    .dropdown-links{
+    }
+
+    .dropdown-links {
         display: none;
         font-size: 0.6em;
     }
-    .dropdown-menu{
+
+    .dropdown-menu {
         display: inline;
-        opacity:1;
+        opacity: 1;
         position: relative;
-        left: 6em;        
+        left: 6em;
     }
-    
+
     /* DROPDOWN MENU HOVERS */
 
-    .dropdown-menu:hover  .dropdown-links{
+    .dropdown-menu:hover .dropdown-links {
         cursor: pointer;
         display: block;
         position: absolute;
         top: 1.8em;
-        right: 0em; 
+        right: 0em;
         background-color: rgba(243, 188, 220, 0.8);
         border-radius: 10px;
         text-align: right;
         padding: 1em 0.5em;
     }
-    .dropdown-menu:hover  .dropdown-links li{
+
+    .dropdown-menu:hover .dropdown-links li {
         margin-bottom: 1em;
     }
-    .dropdown-menu:hover  .dropdown-links li:last-of-type{
+
+    .dropdown-menu:hover .dropdown-links li:last-of-type {
         margin-right: 1em;
         margin-top: 1.5em;
     }

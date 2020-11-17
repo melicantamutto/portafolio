@@ -1,6 +1,6 @@
 /* QUOTE GENERALS */
 
-.quote-section{
+.quote-section {
     width: 100vw;
     min-height: 55vh;
     background-color: var(--mediumPink);
@@ -13,7 +13,7 @@
 
 /* QUOTE ICON */
 
-.quote-icon{
+.quote-icon {
     font-size: 5em;
     color: var(--veryDarkViolet);
     margin-bottom: 1em;
@@ -24,7 +24,7 @@
 
 /* QUOTE TEXT */
 
-.quote-per-se{
+.quote-per-se {
     color: var(--darkVioletText);
     font-size: 1.1em;
     line-height: 1.65;
@@ -38,12 +38,12 @@
 
 /* QUOTE AUTHOR */
 
-.quote-author{
+.quote-author {
     color: var(--veryDarkViolet);
     font-size: 1.5em;
     font-weight: 800;
     background-color: var(--cream);
-    padding:0.5em;
+    padding: 0.5em;
     border-radius: 10px;
 }
 
@@ -51,34 +51,46 @@
 
 /* MEDIA QUERIES */
 
-@media (max-width: 800px){
-    .quote-section{
+@media (max-width: 800px) {
+    .quote-section {
         padding-top: 3rem;
         padding-bottom: 3rem;
     }
-    .quote-icon{
+
+    .quote-icon {
         margin-bottom: 0.5em;
     }
-    .quote-per-se{
+
+    .quote-per-se {
         width: 30em;
         margin-bottom: 2.5em;
     }
 }
-@media (max-width: 600px){
-    .quote-section{
+
+@media (max-width: 600px) {
+    .quote-section {
         font-size: 0.9em;
     }
-    .quote-icon{
+
+    .quote-icon {
         font-size: 3.5em;
     }
-    .quote-per-se{
+
+    .quote-per-se {
         width: 20em;
     }
 }
-@media (max-width: 350px){
-    .quote-per-se{
-        width: 10em;
+
+@media (max-width: 350px) {
+    .quote-section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .quote-per-se {
+        width: 100%;
     }
 }
+
 
 /* END MEDIA QUERIES */

@@ -1,11 +1,12 @@
 /* CONTACT GENERALS */
 
-.contact-section{
+.contact-section {
     background-color: var(--lightBlue);
     color: var(--darkVioletText);
     min-height: 100vh;
 }
-.contact-card{
+
+.contact-card {
     max-width: 70rem;
     min-height: 70vh;
     background-color: #fff;
@@ -19,11 +20,13 @@
 
 /* MAIN STYLES */
 
-.contact-main, .contact-form{
+.contact-main,
+.contact-form {
     display: flex;
     flex-direction: column;
 }
-.contact-main{
+
+.contact-main {
     width: 30em;
     margin-right: 5rem;
 }
@@ -32,7 +35,8 @@
 
 /* TITLES */
 
-.contact-title, .form-title{
+.contact-title,
+.form-title {
     font-weight: 800;
     font-size: 2em;
     margin-bottom: 1em;
@@ -42,29 +46,33 @@
 
 /* DESCRIPTION */
 
-.contact-description{
+.contact-description {
     margin-bottom: 2rem;
 }
+
 /* END DESCRIPTION */
 
 /* ICONS */
 
-.contact-icons{
+.contact-icons {
     display: flex;
     flex-direction: column;
 }
-.contact-icon-container:nth-of-type(3)>.contact-icon{
+
+.contact-icon-container:nth-of-type(3)>.contact-icon {
     padding: 0.5em 0.55em;
 }
-.contact-icon{
+
+.contact-icon {
     font-size: 1.2em;
     margin-bottom: 1em;
-    color:var(--darkGreen);
+    color: var(--darkGreen);
     border-radius: 100px;
-    padding:0.5em;
+    padding: 0.5em;
     transition: var(--transitionSocials);
 }
-.contact-icon-description{
+
+.contact-icon-description {
     font-weight: 300;
     margin-left: 1em;
     font-size: 0.9em;
@@ -75,11 +83,12 @@
 
 /* ICON HOVERS */
 
-.contact-icon-container:hover>.contact-icon{
+.contact-icon-container:hover>.contact-icon {
     color: white;
     background-color: var(--darkGreen);
 }
-.contact-icon-container:hover>.contact-icon-description{
+
+.contact-icon-container:hover>.contact-icon-description {
     color: var(--darkGreen);
 }
 
@@ -87,21 +96,30 @@
 
 /* FORM STYLES */
 
-fieldset, .input-message{
+fieldset {
+    display: inline-block;
+}
+
+fieldset,
+.input-message {
     border: none;
 }
-.form-card{
+
+.form-card {
     list-style: none;
 }
-.contact-form{
+
+.contact-form {
     width: 40em;
     box-sizing: border-box;
 }
-.form-card-container{
+
+.form-card-container {
     width: 100%;
-    
+
 }
-.form-card{
+
+.form-card {
     display: flex;
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -111,13 +129,16 @@ fieldset, .input-message{
 
 /* INPUT ICONS */
 
-#form-invalid, #form-valid{
+#form-invalid,
+#form-valid {
     display: none;
 }
-.form-valid{
+
+.form-valid {
     color: var(--lightGreen);
 }
-.form-invalid{
+
+.form-invalid {
     color: var(--lightRed);
 }
 
@@ -125,26 +146,28 @@ fieldset, .input-message{
 
 /* EACH INPUT */
 
-.form-input{
+.form-input {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-bottom: 1em;
     position: relative;
 }
-.form-label{
+
+.form-label {
     margin-bottom: 0.5em;
 }
 
-.input-per-se{
-    padding:0.7em 0.8em;
+.input-per-se {
+    padding: 0.7em 0.8em;
     border: none;
     border-radius: 50px;
     background-color: var(--cream);
     transition: var(--transitionForm);
 }
-.input-message{
-    padding:1em 1em;
+
+.input-message {
+    padding: 1em 1em;
     border: none;
     background-color: var(--cream);
     border-radius: 10px;
@@ -154,15 +177,19 @@ fieldset, .input-message{
     resize: none;
     transition: var(--transitionForm);
 }
-.form-input:nth-of-type(1), .form-input:nth-of-type(2){
-    flex-grow:1;
+
+.form-input:nth-of-type(1),
+.form-input:nth-of-type(2) {
+    flex-grow: 1;
     flex-shrink: 1;
     max-width: 47%;
 }
-.form-input:nth-of-type(3){
-    flex:9999 0 100%
+
+.form-input:nth-of-type(3) {
+    flex: 9999 0 100%
 }
-.form-input:nth-of-type(1){
+
+.form-input:nth-of-type(1) {
     margin-right: 1.5em;
 }
 
@@ -170,11 +197,11 @@ fieldset, .input-message{
 
 /* FORM BUTTON */
 
-.form-button{
-    border:none;
+.form-button {
+    border: none;
     background-color: var(--darkPink);
-    color:#fff;
-    font-size:1.2em;
+    color: #fff;
+    font-size: 1.2em;
     font-weight: 500;
     padding: 0.7em 1.5em;
     margin-top: 1em;
@@ -185,23 +212,36 @@ fieldset, .input-message{
 /* END FORM BUTTON */
 
 /* FORM HOVERS AND VALIDATION */
-.input-per-se:invalid, textarea:invalid{
+.input-per-se:invalid,
+textarea:invalid {
     box-shadow: none;
 }
-.input-per-se:hover, .input-message:hover{
+
+.input-per-se:hover,
+.input-message:hover {
     box-shadow: 0px 0px 8px 0.8px var(--cream);
 }
-.form-button:hover, .form-button:active{
+
+.form-button:hover,
+.form-button:active {
     background-color: var(--lightPink);
     color: var(--darkVioletText);
 }
-.input-per-se:valid:focus, textarea:valid:focus{
+
+.input-per-se:valid:focus,
+textarea:valid:focus {
     box-shadow: 0px 0px 8px 0.8px var(--lightGreen);
 }
-.input-per-se:invalid:focus, textarea:invalid:focus{
+
+.input-per-se:invalid:focus,
+textarea:invalid:focus {
     box-shadow: 0px 0px 8px 0.8px var(--lightRed);
 }
-.input-per-se:valid ~ #form-valid, .input-message:valid ~ #form-valid, .input-per-se:focus:invalid ~ #form-invalid, .input-message:focus:invalid ~ #form-invalid{
+
+.input-per-se:valid~#form-valid,
+.input-message:valid~#form-valid,
+.input-per-se:focus:invalid~#form-invalid,
+.input-message:focus:invalid~#form-invalid {
     display: block;
     position: absolute;
     top: 36px;
@@ -213,88 +253,128 @@ fieldset, .input-message{
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1250px){
-    .contact-card{
+@media (max-width: 1250px) {
+    .contact-card {
         max-width: 60em;
         min-height: 150vh;
         max-height: 200vh;
     }
 }
-@media (max-width: 1000px){
-    .contact-card{
+
+@media (max-width: 1000px) {
+    .contact-card {
         max-width: 50em;
     }
-    .form-input:nth-of-type(1), .form-input:nth-of-type(2){
+
+    .form-input:nth-of-type(1),
+    .form-input:nth-of-type(2) {
         max-width: 49%;
         width: 46%;
         min-width: 30%;
     }
 }
-@media(max-width: 830px){
-    .contact-section{
+
+@media(max-width: 830px) {
+    .contact-section {
         padding: 0;
         max-width: 100vw;
     }
-    .contact-card{
+
+    .contact-card {
         width: 100vw;
         flex-direction: column;
         background-color: inherit;
         padding: 4rem 2rem;
         border-radius: none;
     }
-    .contact-icons{
+
+    .contact-icons {
         flex-wrap: wrap;
         height: 10em;
         align-content: space-between;
     }
-    .contact-main{
+
+    .contact-main {
         margin-right: 0;
     }
 }
-@media(max-width:700px){
-    .contact-card{
+
+@media(max-width:700px) {
+    .contact-card {
         padding: 5rem 0rem 5rem 10%;
     }
-    .contact-form, .contact-main{
+
+    .contact-form,
+    .contact-main {
         width: 90%;
     }
 }
-@media(max-width: 580px){
-    .contact-card{
+
+@media(max-width: 580px) {
+    .contact-card {
         max-width: 35em;
     }
 }
-@media(max-width: 500px){
-    .form-input:nth-of-type(1), .form-input:nth-of-type(2){
+
+@media(max-width: 500px) {
+
+    .form-input:nth-of-type(1),
+    .form-input:nth-of-type(2) {
         min-width: 100%;
     }
-    .contact-card{
+
+    .contact-card {
         max-width: 30em;
+        height: 63rem;
     }
-    .contact-icons{
+
+    .contact-icons {
         flex-wrap: nowrap;
         height: fit-content;
     }
-    .contact-icon{
+
+    .contact-icon {
         margin-bottom: 0.3em;
     }
-    .contact-icons{
+
+    .contact-icons {
         margin-bottom: 3em;
     }
-    .input-per-se{
+
+    .input-per-se,
+    .input-message {
         font-size: 1.1em;
     }
 }
-@media(max-width: 420px){
-    .contact-card{
-        max-width: 25em;
 
+@media(max-width: 420px) {
+    .contact-card {
+        width: 100%;
     }
 }
-@media(max-width: 350px){
-    .contact-card{
+
+@media(max-width: 350px) {
+    .contact-card {
         max-width: 20em;
-        padding: 5rem 1% 5rem 1%;
+        padding: 5rem 1%;
     }
 }
+
+@media(max-width: 310px) {
+    .contact-card {
+        padding: 5rem 0.75rem;
+        font-size: 0.9em;
+        height: 57rem;
+    }
+
+    .form-input {
+        max-width: 20em;
+    }
+
+    .input-per-se,
+    .input-message {
+        font-size: 1em;
+    }
+}
+
 /* END MEDIA QUERIES */

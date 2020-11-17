@@ -1,6 +1,6 @@
 /* FOOTER GENERALS */
 
-.footer-section{
+.footer-section {
     width: 100vw;
     min-height: 2vh;
     background-color: var(--mediumPink);
@@ -9,7 +9,8 @@
     padding: 7rem;
     color: var(--darkVioletText);
 }
-.footer.container{
+
+.footer.container {
     align-items: center;
     justify-content: space-evenly;
 }
@@ -18,11 +19,12 @@
 
 /* NAVIGATION LINKS */
 
-.footer-links{
+.footer-links {
     display: flex;
     list-style: none;
 }
-.footer-link{
+
+.footer-link {
     color: var(--darkVioletText);
     font-weight: 400;
     margin: 0 1em;
@@ -30,31 +32,37 @@
     font-size: 0.95em;
     transition: var(--transitionNav);
 }
-.footer-link:hover{
+
+.footer-link:hover {
     background-color: var(--cream);
     border-radius: 50px;
-    padding:1em;
+    padding: 1em;
 }
 
 /* END NAVIGATION LINKS */
 
 /* SOCIAL ICONS */
 
-.footer-icons{
+.footer-icons {
     margin: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
 }
-.footer-icon{
+
+.footer-icon {
     font-size: 1.6em;
     background-color: var(--cream);
     border-radius: 100px;
-    padding:0.5em;
+    padding: 0.5em;
     margin: 0 0.2em;
     transition: var(--transitionSocials);
 }
-.footer-icon:nth-of-type(3){
+
+.footer-icons :nth-child(3) .footer-icon {
     padding: 0.5em 0.55em;
 }
-.footer-icon:hover{
+
+.footer-icon:hover {
     color: var(--cream);
     background-color: var(--darkVioletText);
 }
@@ -63,7 +71,7 @@
 
 /* FINAL SIGNATURE */
 
-.footer-signature{
+.footer-signature {
     font-weight: 300;
 }
 
@@ -71,25 +79,31 @@
 
 /* MEDIA QUERIES */
 
-@media (max-width: 700px){
-    .footer-links{
+@media (max-width: 700px) {
+    .footer-links {
         display: none;
     }
 }
-@media (max-width: 580px){
-    .footer-section{
+
+@media (max-width: 580px) {
+    .footer-section {
         padding: 2.5em 0em;
     }
-    .footer-icons{
+
+    .footer-icons {
         margin: 2.5rem auto;
     }
 }
-@media(max-width: 400px){
-    .footer-icons{
-        min-width: 15rem;
-    } 
-    .footer-icon{
+
+@media(max-width: 400px) {
+    .footer-icon {
         font-size: 1.4em;
+    }
+}
+
+@media(max-width: 290px) {
+    .footer-icon {
+        font-size: 1.3em;
     }
 }
 

@@ -2,6 +2,7 @@
 
 .header-section {
     background-color: #fff;
+    font-size: 1.2em;
 }
 
 .header-container {
@@ -43,7 +44,7 @@
 
 .presentation-intro {
     color: var(--darkViolet);
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 500;
 }
 
@@ -71,6 +72,7 @@
     border-radius: 100px;
     color: #615357;
     transition: var(--transitionButton);
+    font-size: 0.8em;
 }
 
 .presentation-button:hover {
@@ -82,7 +84,7 @@
 
 /* MEDIA QUERIES */
 
-@media (max-width: 850px) {
+@media (max-width: 1000px) {
     .header-container {
         flex-direction: column;
     }
@@ -95,6 +97,12 @@
     .presentation-image>img {
         margin-left: 0;
         min-width: 20em;
+    }
+}
+
+@media(max-width: 400px){
+    .header-section{
+        font-size: 1em;
     }
 }
 

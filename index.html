@@ -19,7 +19,7 @@
     <meta property="og:title" content="Melina Cantamutto - Portafolio">
     <meta property="og:description" content="Programadora Frontend y amante de los videojuegos">
     <meta property="og:image"
-        content="https://raw.githubusercontent.com/melicantamutto/portafolio/master/images/meta-image.jpg">
+        content="https://raw.githubusercontent.com/melicantamutto/portafolio/master/images/meta-image.png">
     <meta property="og:site_name" content="Melina Lucía Cantamutto">
 
     <!-- Twitter -->
@@ -28,7 +28,7 @@
     <meta property="twitter:title" content="Melina Cantamutto - Portafolio">
     <meta property="twitter:description" content="Programadora Frontend y amante de los videojuegos">
     <meta property="twitter:image"
-        content="https://raw.githubusercontent.com/melicantamutto/portafolio/master/images/meta-image.jpg">
+        content="https://raw.githubusercontent.com/melicantamutto/portafolio/master/images/meta-image.png">
     <meta name="twitter:image:alt" content="Melina Lucía Cantamutto's photo">
 
     <!-- Favicon -->
@@ -60,31 +60,31 @@
         <i class="fas fa-bars dropdown-menu">
             <ul class="dropdown-links">
                 <li class="dropdown-link">
-                    <a href="#hello">HOLA</a>
+                    <a href="#hello" aria-label="Hola">HOLA</a>
                 </li>
                 <li class="dropdown-link">
-                    <a href="#knowledge">CONOCIMIENTOS</a>
+                    <a href="#knowledge" aria-label="Conocimientos" aria-label="Conocimientos">CONOCIMIENTOS</a>
                 </li>
                 <li class="dropdown-link">
-                    <a href="#projects">PROYECTOS</a>
+                    <a href="#projects" aria-label="Proyectos">PROYECTOS</a>
                 </li>
                 <li class="dropdown-last-link">
-                    <a href="#contact">CONTACTO</a>
+                    <a href="#contact" aria-label="Contacto">CONTACTO</a>
                 </li>
             </ul>
         </i>
         <ul class="navigation-links">
             <li class="nav-link">
-                <a href="#hello">HOLA</a>
+                <a href="#hello" aria-label="Hola">HOLA</a>
             </li>
             <li class="nav-link">
-                <a href="#knowledge">CONOCIMIENTOS</a>
+                <a href="#knowledge" aria-label="Conocimientos">CONOCIMIENTOS</a>
             </li>
             <li class="nav-link">
-                <a href="#projects">PROYECTOS</a>
+                <a href="#projects" aria-label="Proyectos">PROYECTOS</a>
             </li>
             <li class="nav-last-link">
-                <a href="#contact">CONTACTO</a>
+                <a href="#contact" aria-label="Contacto">CONTACTO</a>
             </li>
         </ul>
     </nav>
@@ -94,10 +94,12 @@
     <header class="html-section header-section" id="hello">
         <article class="section-container header-container">
             <section class="presentation">
-                <h3 class="presentation-intro">¡Hola! Soy</h3>
+                <h1 class="presentation-intro">¡Hola! Soy</h1>
                 <h1 class="presentation-title">Melina Cantamutto</h1>
                 <p class="presentation-description">Programadora Frontend y amante de los videojuegos</p>
-                <a class="presentation-button" href="#projects" aria-label="Lo que hago">LO QUE HAGO</a>
+                <a class="presentation-button" href="#projects" aria-label="Lo que hago">
+                    <span aria-hidden="true">LO QUE HAGO</span> 
+                </a>
             </section>
             <figure class="presentation-image">
                 <img src="images/main-image.jpg" alt="Programmer girl" />
@@ -115,32 +117,32 @@
             </header>
             <section class="knowledge-cards">
                 <article class="knowledge-card-container">
-                    <i class="knowledge-card devicon-html5-plain">
+                    <i class="knowledge-card devicon-html5-plain" aria-hidden="true">
                         <span class="knowledge-icon-description">HTML 5</span>
                     </i>
                 </article>
                 <article class="knowledge-card-container">
-                    <i class="knowledge-card devicon-css3-plain">
+                    <i class="knowledge-card devicon-css3-plain" aria-hidden="true">
                         <span class="knowledge-icon-description">CSS 3</span>
                     </i>
                 </article>
                 <article class="knowledge-card-container">
-                    <i class="knowledge-card devicon-sass-original">
+                    <i class="knowledge-card devicon-sass-original" aria-hidden="true">
                         <span class="knowledge-icon-description">Sass</span>
                     </i>
                 </article>
                 <article class="knowledge-card-container">
-                    <i class="knowledge-card devicon-javascript-plain">
+                    <i class="knowledge-card devicon-javascript-plain" aria-hidden="true">
                         <span class="knowledge-icon-description">JavaScript</span>
                     </i>
                 </article>
                 <article class="knowledge-card-container">
-                    <i class="knowledge-card devicon-react-original">
+                    <i class="knowledge-card devicon-react-original" aria-hidden="true">
                         <span class="knowledge-icon-description">React</span>
                     </i>
                 </article>
                 <article class="knowledge-card-container">
-                    <i class="knowledge-card devicon-git-plain">
+                    <i class="knowledge-card devicon-git-plain" aria-hidden="true">
                         <span class="knowledge-icon-description">Git</span>
                     </i>
                 </article>
@@ -150,7 +152,7 @@
     <!-- END MY KNOWLEDGE -->
     <!-- QUOTE -->
     <section class="html-section quote-section" id="quote">
-        <article class="section-container quote-container">
+        <article class="section-container quote-container" aria-hidden="true">
             <i class="fas fa-quote-right quote-icon"></i>
             <p class="quote-per-se"><em>“Usted no puede esperar construir un mundo mejor sin mejorar a las personas.
                     Cada uno de nosotros debe trabajar para su propia mejora”.</em></p>
@@ -169,51 +171,51 @@
             <section class="project-cards">
                 <article class="project-card-container">
                     <figure class="project-card">
-                        <img href="#" src="./images/projects/portfolio-temp.svg" class="project-image"
-                            alt="main page screenshot" />
-                        <figcaption class="project-img-description">Portfolio</p>
+                        <img src="./images/projects/portfolio.png" class="project-image"
+                            alt="" />
+                        <figcaption class="project-img-description">Portfolio</figcaption>
                     </figure>
                 </article>
                 <article class="project-card-container">
                     <figure class="project-card">
-                        <img href="#" src="./images/projects/meme-generator.svg" class="project-image"
-                            alt="mobile showing a photo of a girl writing" />
-                        <figcaption class="project-img-description">Generador de memes</p>
+                        <img src="./images/projects/meme-generator.svg" class="project-image"
+                            alt="" />
+                        <figcaption class="project-img-description">Generador de memes</figcaption>
                     </figure>
                 </article>
                 <article class="project-card-container">
                     <figure class="project-card">
-                        <img href="#" src="./images/projects/match-3.svg" class="project-image"
-                            alt="gamepad with a person next to it" />
-                        <figcaption class="project-img-description">Match 3</p>
+                        <img src="./images/projects/match-3.svg" class="project-image"
+                            alt="" />
+                        <figcaption class="project-img-description">Match 3</figcaption>
                     </figure>
                 </article>
                 <article class="project-card-container">
                     <figure class="project-card">
-                        <img href="#" src="./images/projects/wallet.svg" class="project-image"
-                            alt="wallet with money coming out and people carrying it" />
-                        <figcaption class="project-img-description">Controlador de gastos</p>
+                        <img src="./images/projects/wallet.svg" class="project-image"
+                            alt="" />
+                        <figcaption class="project-img-description">Controlador de gastos</figcaption>
                     </figure>
                 </article>
                 <article class="project-card-container">
                     <figure class="project-card">
-                        <img href="#" src="./images/projects/calendar.svg" class="project-image"
-                            alt="girl next to a calendar" />
-                        <figcaption class="project-img-description">Administrador de reuniones</p>
+                        <img src="./images/projects/calendar.svg" class="project-image"
+                            alt="" />
+                        <figcaption class="project-img-description">Administrador de reuniones</figcaption>
                     </figure>
                 </article>
                 <article class="project-card-container">
                     <figure class="project-card">
-                        <img href="#" src="./images/projects/to-do-app.svg" class="project-image"
-                            alt=" girl holding a list checked" />
-                        <figcaption class="project-img-description">To-do app</p>
+                        <img src="./images/projects/to-do-app.svg" class="project-image"
+                            alt="" />
+                        <figcaption class="project-img-description">To-do app</figcaption>
                     </figure>
                 </article>
                 <article class="project-card-container">
                     <figure class="project-card">
-                        <img href="#" src="./images/projects/movie-search.svg" class="project-image"
-                            alt="two girls in a couch with popcorn" />
-                        <figcaption class="project-img-description">Buscador de películas</p>
+                        <img src="./images/projects/movie-search.svg" class="project-image"
+                            alt="" />
+                        <figcaption class="project-img-description">Buscador de películas</ficaption>
                     </figure>
                 </article>
             </section>
@@ -223,33 +225,33 @@
     <!-- CONTACT -->
     <article class="html-section contact-section" id="contact">
         <section class="contact-card">
-            <header class="contact-main">
+            <main class="contact-main">
                 <h2 class="contact-title">Contactame</h2>
                 <p class="contact-description">Me podés seguir en mis redes sociales o también podés llenar el
                     formulario del costado para mandarme un mensaje particular.</p>
                 <section class="contact-icons">
                     <div class="contact-icon-container">
-                        <i class="fab fa-twitter contact-icon"></i>
+                        <i class="fab fa-twitter contact-icon" aria-hidden="true"></i>
                         <a href="https://twitter.com/melicantamutto"
-                            class="contact-icon-description">@melicantamutto</a>
+                            class="contact-icon-description" aria-label="Mi Twitter">@melicantamutto</a>
                     </div>
                     <div class="contact-icon-container">
-                        <i class="fab fa-github contact-icon"></i>
-                        <a href="https://github.com/melicantamutto" class="contact-icon-description">melicantamutto</a>
+                        <i class="fab fa-github contact-icon" aria-hidden="true"></i>
+                        <a href="https://github.com/melicantamutto" class="contact-icon-description" aria-label="Mi Github">melicantamutto</a>
                     </div>
                     <div class="contact-icon-container">
-                        <i class="fab fa-linkedin-in contact-icon"></i>
+                        <i class="fab fa-linkedin-in contact-icon" aria-hidden="true"></i>
                         <a href="https://www.linkedin.com/in/melina-luc%C3%ADa-cantamutto-35b8141b9/"
-                            class="contact-icon-description">Melina Lucía Cantamutto</a>
+                            class="contact-icon-description" aria-label="Mi LinkedIn">Melina Lucía Cantamutto</a>
                     </div>
 
                     <div class="contact-icon-container">
-                        <i class="fas fa-envelope contact-icon"></i>
+                        <i class="fas fa-envelope contact-icon" aria-hidden="true"></i>
                         <a href="mailto:melicantamutto@gmail.com"
-                            class="contact-icon-description">melicantamutto@gmail.com</a>
+                            class="contact-icon-description" aria-label="Mi mail">melicantamutto@gmail.com</a>
                     </div>
                 </section>
-            </header>
+            </main>
             <aside class="contact-form">
                 <form class="form-card-container">
                     <fieldset>
@@ -293,43 +295,45 @@
                                 <i id="form-invalid" class="far fa-times-circle form-invalid" aria-hidden="true"></i>
                             </li>
                         </ul>
-                        <button class="form-button" type="submit" aria-label="Enviar">Enviar</button>
+                        <button class="form-button" type="submit" aria-label="Enviar"> 
+                            <span aria-hidden="true">Enviar</span> 
+                        </button>
                     </fieldset>
                 </form>
             </aside>
         </section>
     </article>
     <!-- END CONTACT -->
-    </main>
+    
     <!-- FOOTER -->
     <footer class="html-section footer-section">
         <article class="section-container footer-container">
             <ul class="footer-links">
                 <li>
-                    <a class="footer-link" href="#hello">Hola</a>
+                    <a class="footer-link" href="#hello" aria-label="Hola">Hola</a>
                 </li>
                 <li>
-                    <a class="footer-link" href="#knowledge">Conocimientos</a>
+                    <a class="footer-link" href="#knowledge" aria-label="Conocimientos">Conocimientos</a>
                 </li>
                 <li>
-                    <a class="footer-link" href="#projects">Proyectos</a>
+                    <a class="footer-link" href="#projects" aria-label="Proyectos">Proyectos</a>
                 </li>
                 <li>
-                    <a class="footer-link" href="#contact">Contacto</a>
+                    <a class="footer-link" href="#contact" aria-label="Contacto">Contacto</a>
                 </li>
             </ul>
             <section class="footer-icons">
-                <a href="https://twitter.com/melicantamutto" target="_blank">
-                    <i class="fab fa-twitter footer-icon"></i>
+                <a href="https://twitter.com/melicantamutto" target="_blank" aria-label="Mi Twitter">
+                    <i class="fab fa-twitter footer-icon" aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/melicantamutto" target="_blank">
-                    <i class="fab fa-github footer-icon"></i>
+                <a href="https://github.com/melicantamutto" target="_blank" aria-label="Mi Github">
+                    <i class="fab fa-github footer-icon" aria-hidden="true"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/melina-luc%C3%ADa-cantamutto-35b8141b9/" target="_blank">
-                    <i class="fab fa-linkedin-in footer-icon"></i>
+                <a href="https://www.linkedin.com/in/melina-luc%C3%ADa-cantamutto-35b8141b9/" target="_blank" aria-label="Mi LinkedIn">
+                    <i class="fab fa-linkedin-in footer-icon" aria-hidden="true"></i>
                 </a>
-                <a href="mailto:melicantamutto@gmail.com" target="_blank">
-                    <i class="fas fa-envelope footer-icon"></i>
+                <a href="mailto:melicantamutto@gmail.com" target="_blank" aria-label="Mi mail">
+                    <i class="fas fa-envelope footer-icon" aria-hidden="true"></i>
                 </a>
             </section>
             <p class="footer-signature">Hecho con ❤️ por Melina</p>

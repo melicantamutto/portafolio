@@ -31,7 +31,7 @@
     font-weight: 300;
     font-size: 1.2em;
     line-height: 1.5;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 /* END TITLE AND DESCRIPTION */
@@ -54,8 +54,8 @@
 /* EACH CARD */
 
 .project-card-container {
-    width: 18em;
-    height: 18em;
+    width: 20em;
+    height: 20em;
     background-color: #fff;
     margin: 0.3em 0.5em;
     position: relative;
@@ -82,7 +82,11 @@
 }
 
 .project-image {
-    width: 90%;
+    width: 100%;
+}
+
+.project-card-container:first-of-type .project-image{
+    border: 2px solid var(--cream);
 }
 
 .project-img-description {
@@ -162,10 +166,11 @@
     .project-card {
         flex-direction: row;
         justify-content: space-between;
+        width: 100%;
     }
 
     .project-image {
-        width: 35%;
+        width: 12em;
     }
 
     .project-img-description {
@@ -179,6 +184,9 @@
     .project-card-container {
         margin: initial 0;
         height: 10em;
+    }
+    .project-image{
+        width: 10em;
     }
 }
 
@@ -197,6 +205,10 @@
     .project-card-container {
         margin: initial 0;
         height: 8em;
+    }
+
+    .project-image{
+        width: 8em;
     }
 }
 

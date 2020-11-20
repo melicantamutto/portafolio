@@ -29,7 +29,7 @@ _Este proyecto no necesita la instalación de ninguna dependencia (por ahora)_
 
 ### Así se debería ver el proyecto
 
-![captura del proyecto](./images/full-screenshot.jpg)
+![captura del proyecto](./images/full-screenshot.png)
 
 
 ***

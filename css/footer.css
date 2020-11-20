@@ -87,7 +87,7 @@
 
 @media (max-width: 580px) {
     .footer-section {
-        padding: 2.5em 0em;
+        padding: 2em 0em 4em 0em;
     }
 
     .footer-icons {
@@ -96,6 +96,10 @@
 }
 
 @media(max-width: 400px) {
+    .footer-section {
+        padding: 1em 0em 2em 0em;
+    }
+
     .footer-icon {
         font-size: 1.4em;
     }

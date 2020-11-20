@@ -297,11 +297,12 @@ textarea:invalid:focus {
     .contact-main {
         margin-right: 0;
     }
+
 }
 
 @media(max-width:700px) {
     .contact-card {
-        padding: 5rem 0rem 5rem 10%;
+        padding: 5rem 0rem 3rem 10%;
     }
 
     .contact-form,
@@ -355,13 +356,13 @@ textarea:invalid:focus {
 @media(max-width: 350px) {
     .contact-card {
         max-width: 20em;
-        padding: 5rem 1%;
+        padding: 5rem 1% 3rem 1%;
     }
 }
 
 @media(max-width: 310px) {
     .contact-card {
-        padding: 5rem 0.75rem;
+        padding: 5rem 0.75rem 3rem 0.75rem;
         font-size: 0.9em;
     }
 

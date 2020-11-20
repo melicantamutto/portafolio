@@ -100,8 +100,8 @@
     }
 }
 
-@media(max-width: 400px){
-    .header-section{
+@media(max-width: 400px) {
+    .header-section {
         font-size: 1em;
     }
 }

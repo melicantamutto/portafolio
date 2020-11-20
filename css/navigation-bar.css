@@ -120,9 +120,8 @@
 @media (max-width: 1000px) {
     .navigation-bar {
         position: relative;
-
-        padding-top: 1em;
-        padding-bottom: 1em;
+        padding-top: 1.5em;
+        padding-bottom: 1.5em;
     }
 
     .navigation-links {
@@ -137,8 +136,9 @@
     .dropdown-menu {
         display: inline;
         opacity: 1;
-        position: relative;
-        left: 6em;
+        position: absolute;
+        right: 3em;
+        top: 0.5em;
     }
 
     /* DROPDOWN MENU HOVERS */
@@ -165,6 +165,17 @@
     }
 
     /* END DROPDOWN MENU HOVERS */
+}
+
+@media(max-width: 344px) {
+    .navigation-bar {
+        width: 100vw;
+        padding: 1.5em 3em;
+    }
+
+    .dropdown-menu {
+        right: 1.5em;
+    }
 }
 
 /* END MEDIA QUERIES */
